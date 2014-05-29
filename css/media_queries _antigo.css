@@ -1,0 +1,520 @@
+
+/* Media Queries - 1 */
+
+/* Note: Design for a below width of 985px */
+@media only screen and (max-width:1024px) {
+#content { width:100%; float:left; padding:105px 0 0 0}
+.previous2{ float:left; position:absolute; top:15px; left:0}
+.previous2 a{ width:44px; height:78px; float:left; background:url(../images/previous03.gif) no-repeat; text-indent:-9999px}
+.next2{ float:left; position:absolute; top:15px; right:0}
+.next2 a{ width:44px; height:78px; float:left; background:url(../images/next03.gif) no-repeat; text-indent:-9999px}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 984px) {
+.wrapper { width:748px; margin:0 auto}
+
+
+section#acoes div {width: 28%;}
+section#acoes div + div { margin-left: 7%;}
+#banner .info { left: 30%;}
+
+body#vip_cadastro .bgbannerform { width: 840px;}
+body#vip_cadastro .wrapper { width: 100%; margin:0 auto}
+body#vip_cadastro nav { padding:0;width:500px}
+
+#recents li article img {width:148px;height:82px}
+
+header .logo {
+    margin: 17px 0 0 20px;
+	padding:0
+}
+nav {  float: left; padding: 0 0 0 20px; width: auto;}
+nav ul{ font-size:16px}
+nav ul li{ padding-right:5px}
+nav ul li a{ height:28px; padding:13px 15px 0 15px}
+.rightlinks { width:225px; padding:15px 0 0 0}
+.rightlinks p{ font-size:12px; padding-bottom:2px}
+.rightlinks ul { font-size:12px}
+.rightlinks ul li{ padding-left:3px}
+.rightlinks ul li a{ height:20px; padding:6px 10px 0 10px}
+
+#middlecontent figure{ width:350px; float:left}
+#middlecontent article{ width:100%; float:left; padding:72px 0 0 0}
+#middlecontent article h5{ width:100%; text-align:center}
+#middlecontent article p{ text-align:center; padding-bottom:43px}
+.buttonconnect { width:290px; float:none; margin:0 auto}
+
+#middletext{}
+#middletext p{ display: block; margin-bottom: 10px;}
+#middletext .button{}
+
+#recents article{height:160px; float:left; padding:17px 0 0 0;width:148px}
+#recents article p{ font-size:15px}
+#recents article +article{margin-left:5px}
+#bannerinner .rsOverflow {height:536px !important}
+#recents {min-height:390px}
+.royalSlider {height: 620px;}
+
+#recents .rsDefault.rsHor .rsArrowLeft{left: 20%;top: 190px;}
+#recents .rsDefault.rsHor .rsArrowRight{right: 20%;top: 190px;}
+
+footer { width:96%; float:left; padding:25px 2%}
+footer .column1{ width:35%; padding-right:3%}
+footer .list{ width:60%}
+footer .list aside{ width:30%}
+footer .list aside.second{ width:32%}
+footer .list aside.third{ width:38%}
+
+footer .associacoes { padding-bottom:45px; margin-top:25px}
+footer .associacoes p{ width:20%; font-size:14px; padding:15px 0}
+footer .associacoes ul li{ padding-bottom:25px}
+
+
+/* inner page01 */
+#leftpanel { width:32%; float:left}
+
+#leftpanel .box aside{ width:90%; padding:13px 5% 12px 5%}
+#leftpanel .box .input { width:67%; float:right}
+
+.leftmenu ul li article .set .left { width:100px}
+.leftmenu ul li article .set .right { width:100px; margin-right:-20px}
+.leftmenu ul li article .set label { padding-bottom:7px}
+
+.nextmobile { width:91%; float:left; padding:23px 4% 0 5%}
+.nextmobile figure { width:45%; padding-top:20px}
+.nextmobile .info { width:55%; float:left}
+.nextmobile .info h2{ font-size:30px}
+.nextmobile .info h2 span{ font-size:22px}
+.nextmobile .buttonconnect { width:100%; float:left; margin:0px -7% 0 0; position:relative}
+.nextmobile .buttonconnect a{ width:100%; font-size:19px}
+.nextmobile .buttonconnect a span { height:32px; padding:26px 0 0 55px}
+
+#rightpanel { width:67%; float:right}
+
+.topinfo { width:100%; float:left; padding:25px 0 8px 0}
+
+.topinfo p.right { padding:15px 0 8px 0}
+
+.bloglist { width:100%; float:left}
+.bloglist aside p{ font-size:12px}
+.bloglist aside figure { width:26.5%}
+.bloglist aside figure img{ height:90px}
+.bloglist aside .info{ width:34%; padding:0 0 0 2.3%}
+.bloglist aside .info h3{ font-size:20px}
+.bloglist aside .priceinfo{ width:165px; float:right}
+.bloglist aside .priceinfo h3{ font-size:22px}
+
+.bloglist aside .priceinfo p{ text-align:right; padding-bottom:18px}
+.bloglist aside .priceinfo .buttons{ width:70%}
+.bloglist aside .priceinfo .button { width:100%}
+.bloglist aside .priceinfo .button a { width:100%; border:none;  border-radius:4px 4px 0 0}
+.bloglist aside .priceinfo .button a.plus { border-radius:0 0 4px 4px}
+
+/* inner page02 */
+#bannerinner { width:100%; height:620px; float:left; text-align:center; position:relative}
+
+#bgheading { height: 90px;padding: 10px 0 0;}
+#bgheading .photolist{ float:right; padding:8px 0 0 0}
+#bgheading .buttons { margin:15px 85px 0 0}
+#bgheading-sticky-wrapper{height: 100px !important;}
+
+.leftinfo { width:100%; float:left}
+
+.rightinfo { width:100%; float:left; padding:35px 0 0 0}
+.rightinfo .links{ width:100%; margin-left:0}
+.rightinfo .form { width:100%; padding:30px 0 0 0}
+.rightinfo form fieldset { width:96%; padding:17px 2% 36px 2%}
+.rightinfo form ul { width:100%; padding:0 0 10px 0}
+.rightinfo form .buttons { padding:0 0 13px 270px}
+
+
+/* ======== exclusividade ===============*/
+
+#bgheading #disponivel {top: 100px;width: 719px;text-align: center;}
+
+body#exclusividade {}
+#exclusividade footer {}
+#exclusividade #header{}
+#exclusividade h1{ }
+#exclusividade h1 span{ }
+#exclusividade .box2{}
+
+#exclusividade .bgbannerform{}
+#exclusividade  #primeiro{ height: 680px;}
+#exclusividade  #segundo{width: 100%; }
+#exclusividade  #terceiro{ width: 100%;height: 420px;}
+
+#exclusividade .bannerform{padding: 0 15px; width: 100%;}
+
+#exclusividade .bgbannerform p {}
+
+#exclusividade h3.title{}
+
+#exclusividade #lista{  float: none; margin: 0 auto; width: 470px;}
+#exclusividade #conteudo img{}
+#exclusividade #conteudo{display: block; float: none; margin: 140px auto 0;}
+#exclusividade .buttonconnect.no_icon {}
+	
+#exclusividade #lista_executivos{width: 100%;}
+#exclusividade #lista_executivos div{width: 30%;}
+#exclusividade #lista_executivos div+div{}
+#exclusividade #lista_executivos h2{font-size: 23px;}
+#exclusividade #lista_executivos div>p{}
+#exclusividade #lista_executivos aside p{}
+
+#exclusividade  #terceiro #desc{ float: none; margin: 0 auto; width: 400px;}
+#exclusividade  #terceiro #desc h3{}
+#exclusividade  #terceiro #desc h3 span{}
+#exclusividade  #terceiro #desc p{}
+#exclusividade  #terceiro #contas{  float: none; margin: 30px auto 0;}
+#exclusividade  #terceiro #contas img{}
+#exclusividade  #terceiro #contas p{}
+
+}
+
+
+
+
+
+
+
+/*=========================================*/
+
+/* Note: Design for a width of 767px */
+@media only screen and (max-width: 767px) {
+.show{ display:none}
+.hide{ display:block}
+
+/* .wrapper { width:100%; float:left; padding:0 2%} tava 96% */
+.wrapper{ float: none; padding: 0;  width: 300px;}
+header{ background: url("../images/trans01.png") repeat scroll 0 0 transparent;
+    float: left;
+    min-height: 78px;
+    padding-bottom: 10px;
+    width: 100%;}
+#header { margin-bottom:-5px;z-index: 500;}
+header .logo{ width:100%; text-align:center}
+#quem_somos #header {margin-bottom: 15px !important;}
+/*nav { width:100%; float:left; padding:18px 0 0 0;width: 398px;}*/
+nav { margin: 10px 0 0; padding: 0; width: 100%;}
+nav ul{ width:100%; font-size:14px;}
+nav ul li{float:left; color:#292929; padding-right: 0 !important; width: 94px;}
+nav ul li+li{margin-left: 9px;}
+nav ul li a{ width:100%; height:25px; text-align:center; padding: 15px 0 5px !important;}
+nav ul li a img{ display:none}
+
+section#acoes div+div { margin-left: 0;margin-top:20px}
+
+
+.rightlinks { width:100%; float:left; padding:20px 0 10px 0}
+.rightlinks aside{ width:320px; float:none; margin:0 auto}
+.rightlinks p{ text-align:center; padding:0 0 10px 0;color: #1B1B1B;}
+.rightlinks p span{color: #1B1B1B;}
+.rightlinks ul { float: none;
+    font-size: 12px;
+    height: 62px;
+    margin: 0 auto;
+    padding: 0;
+    width: 260px;}
+	
+#banner  .info{  left: 25%; top: 30px; width: 300px;}
+#banner  .item {}
+#banner  .item h2{ font-size: 30px;}
+#banner  .item p{ font-size: 15px;}
+#banner  .item a{ font-size: 12px;}
+
+#banner { width:100%; height:200px; float:left; text-align:center; position:relative}
+#banner img{ width:100%; height:200px}
+
+#form_contato{width: 100%;}
+#form_contato br{display: none;}
+#form_contato img{ margin: 0 auto 20px 25px !important;}
+#form_contato strong{ right: 15px;}
+#form_contato span {width:100%}
+#form_contato span input,#form_contato span select,#form_contato span textarea{width: 100%;
+-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;         /* Opera/IE 8+ */ }
+
+
+body#quem_somos{background:none repeat scroll 0 0 #0E0E0E}
+.bgbannerform { width:100% !important; float:left; background:#e1e1e1; padding-bottom:25px}
+.bannerform { width:300px; float:none; margin:0 auto}
+
+.bannerform h1{ color: #292929; font-size: 18px; margin-top: 20px;}
+.bannerform h1 span{margin-top: 0 !important;font-size: 18px;}
+#quem_somos .bannerform h1{ padding-bottom:0 !important}
+#quem_somos .bannerform h1 span{margin-top: 0 !important;}
+.bannerform .form1 .select { background: url("../images/select04.png") no-repeat scroll 0 0 transparent;}
+.bannerform .box{ width:290px; padding:10px 5px 15px 5px; position:relative}
+
+.bannerform .idTabs{ width:100%; float:left}
+.bannerform .idTabs ul{ font-size:14px}
+.bannerform .idTabs ul li{ padding:0 5px 0 0}
+.bannerform .idTabs ul li a{ padding:0 10px}
+
+.bannerform #cidade{margin: 0 0 10px; width: 317px;}
+.bannerform .form1 input,.bannerform .form1 textarea{margin: 0 0 10px !important;}
+
+.bannerform .form1 #cod_jb{width: 272px !important}
+.bannerform .form1 .selectlist1{display: block;float: none; margin:0 auto;overflow: hidden;width: 290px;}
+.bannerform .form1 .selectlist2{  margin: 0 0 10px 50px;}
+.bannerform .form1 .selectlist2+.selectlist2{  margin: 0 0 10px 31px;}
+#faixa_valor_min_venda,#faixa_valor_max_venda,#faixa_valor_min_locacao,#faixa_valor_max_locacao{background: url("../images/select01.png") no-repeat scroll 0 0 transparent;}
+#faixas{float: left;  margin-left: 0;  margin-top: 0;  position: relative;width: 290px;margin-bottom: 15px;}
+.bannerform .form1 .ate { display: block; font-size: 13px; text-align: center;  width: 100%;padding: 5px 0;}
+#faixas .selectlist1 {width: 189px;}
+#faixas .selectlist4 { margin: 10px auto 0; position: relative; top: auto; width: 290px;}
+#faixas .selectlist5 { left: auto; margin: 10px auto 0; position: relative;  top: auto; width: 290px;}
+#faixas .faixa_valor_max { margin: 0 auto;}
+#tipo {width: 317px;}
+#finalidade{}
+#faixas  select{margin:0;width: 317px;}
+
+.rightlinks ul li a {background: url("../images/trans02.png") repeat scroll 0 0 transparent;}
+
+.bannerform .form1 .selectlist4 p {padding: 33px 0 0 25px !important;}
+.bannerform .form1 .buttonsearch{bottom: 0; display: block; margin: 0 auto; position: relative; right: auto;}
+.tabs dd a{padding:5.7px !important}
+
+.bannerform .box2{width: 260px;}
+.bannerform .box2 p{width: 100%;}
+
+body#vip_cadastro .bannerform {margin: 50px 0 20px;width: 100%;}
+body#vip_cadastro .bgbannerform {background:none}
+body#vip_cadastro .bgbannerform h1{   display: block; margin: 0; padding: 0;text-align: center; width: 100%;color: #F7F7F7;}
+body#vip_cadastro .bgbannerform ul#desc{ left: auto; margin: 20px auto; position: relative; top: auto; width: 300px;}
+body#vip_cadastro .bgbannerform form fieldset{ left: auto; margin: 0 auto; position: relative; top: auto;}
+body#vip_cadastro .bannerform > img{ display: none;}
+
+body#vip .bannerform { margin-top: 100px;}
+body#vip .left{ width:300px}
+body#vip .left aside,body#vip .left > div{ width:270px !important}
+body#vip .right{width:300px}
+body#vip .right > h3 {display: block; margin: 50px 0 20px; position: relative !important; top: auto !important;}
+#lista_imoveis li div.head {min-height: 80px;}
+#lista_imoveis li div.head span.valor {float:none;display:block;}
+#lista_imoveis li div.head h2{height:auto}
+#lista_imoveis li div.info > a{display: block;text-align: center;width: 100%;}
+#lista_imoveis li .dados{ float: none !important;left: auto !important;margin: 10px 0; position: relative !important; top: auto !important;}
+#lista_imoveis li .contato{position: relative !important;right: auto !important;text-align: center;top: auto !important;}
+body#vip .bgbannerform + .wrapper {height:auto !important}
+body#vip .bgbannerform + .wrapper footer {width:300px !important;float: none; margin: 0 auto;}
+#profile{  display: block; float: left; margin: 15px auto 0; text-align: center; width: 300px;}
+#menu_popup{ z-index: 600;}
+#menu_popup span { left: 0; margin: 0; top: -11px; width: 100%;}
+#menu_popup li{ width: 100%;}
+
+#quem_somos .bannerform {width: 100%;float:none}
+#quem_somos .bgbannerform {background: none repeat scroll 0 0 transparent; float: none; width: 290px;}
+#quem_somos .box2{width: 267px;}
+#quem_somos #lista{float:none}
+#quem_somos .box2 *{margin-left:auto;margin-right:auto;}
+#quem_somos #conteudo{margin-top: 15px; padding: 0; width: 270px;}
+#conteudo #areas p{width:100%;text-align:center}
+#areas_itens{padding: 10px 0 0;width: 267px;}
+#areas_itens div{float:none; width: 230px;}
+#areas_itens div+div{margin-top:10px}
+
+#lista_executivos{padding: 0;height: 735px;}
+#lista_executivos div{width: 100%;height:225px}
+#lista_executivos div figure img {width: 267px;}
+#lista_executivos div+div{margin-top: 30px;}
+
+#escritorio{}
+#escritorio div{}
+#escritorio div figure{ margin-bottom: 15px; }
+#escritorio div img{width: 267px;}
+#escritorio div q{}
+#escritorio div p{width: 267px;}
+
+/* ======== exclusividade ===============*/
+
+#exclusividade h1{ padding-bottom: 30px;}
+#exclusividade h1 span{line-height: 44px; padding-top: 11px; }
+#exclusividade  #primeiro{width: 100%;height: 660px; }
+#exclusividade  #segundo{ height: 540px;}
+#exclusividade  #terceiro{height: 470px; }
+#exclusividade .bannerform{padding: 0 5px; width: 290px;}
+#exclusividade #lista{width: 290px; margin: 0;}
+#exclusividade #conteudo{float: left; margin: 30px 0 0; width: 290px;}
+#exclusividade #conteudo img{width: 290px;}	
+#exclusividade #lista_executivos div{float: none; margin: 0; padding: 0;}
+#exclusividade #lista_executivos div+div{margin: 30px 0 0 0}
+#exclusividade  #terceiro #desc{ float: none;width: 290px; margin-top: 20px;}
+#exclusividade  #terceiro #contas{float: none; width: 290px;margin-top: 15px;}
+#exclusividade  #terceiro #contas img{width: 290px;}
+#exclusividade #form_contato #button {width: 100%;}
+
+/*=========================================*/
+
+#middletext p{ display: block; margin-bottom: 10px;}
+#middletext .button{display: block; margin: 0;}
+
+#middlecontent { width:100%; float:left; background:#000000; padding:57px 0}
+
+#middlecontent figure{ width:100%; text-align:center; float:left; padding-bottom:25px}
+
+#middlecontent .steps{ float: none; margin: 0 auto; padding: 0 0 0 15px;  width: 285px;}
+#middlecontent .steps aside{ width: 100%; margin-left:0}
+#middlecontent .steps aside h3{font-size: 18px; padding: 0 0 9px 8px; width: 100%; float:none;}
+#middlecontent .steps aside p { padding:0 15px 0 0}
+#middlecontent .steps .step2{ width:290px}
+#middlecontent .steps .step2 h3{ width:290px}
+#middlecontent .steps .step3{ width:290px}
+#middlecontent .steps .step3 h3{ width:180px; padding-left:120px}
+
+#middlecontent article{ width:100%; float:left; padding:72px 0 0 0; margin:0}
+#middlecontent article h5{ width:100%; text-align:center}
+#middlecontent article p{ text-align:center; padding:0 0 43px 0}
+
+.buttonconnect { width:100%; float:left; padding:0}
+.buttonconnect a{ width:99.8%; padding:0}
+
+#recents { display:none}
+
+footer { width:100%; float:left; padding:25px 0}
+
+footer .column1{ width:100%; float:left; padding:0}
+footer .column1 p{ width:100%; float:left; text-align:center}
+footer .column1 .logo{ width:100%; text-align:center}
+footer .column1 .bgenter{ width:100%; float:left}
+footer .column1 .bgenter2{ width:320px; margin:0 auto}
+footer .column1 .enter{ margin:25px 0 0 70px}
+
+footer .list{ width:95%; float:left; padding:45px 0 0 5%}
+footer .list aside{ width:50%; float:left; padding-bottom:20px}
+footer .list aside.second{ width:50%}
+footer .list aside.third{ width:100%}
+footer .list aside h3{ padding-bottom:15px}
+
+footer .rightinfo{ width:100%; float:left; padding:36px 0 20px 0}
+footer .rightinfo aside{ width:94%; padding:20px 3% 15px 3%}
+
+footer .associacoes { width:103%; float:left; border-top:1px solid #182a33; padding:29px 0 60px 2%; margin-right:-5%}
+footer .associacoes p{ width:100%; text-align:center; padding-bottom:25px}
+footer .associacoes ul{ width:100%; float:left; margin-right:0}
+footer .associacoes ul li{ line-height:.5em; padding:0 25px 25px 0}
+
+footer .copyrights{ width:100%; float:left}
+footer .copyrights p{ width:100%; text-align:center; padding:0 0 15px 0}
+
+
+/* inner page01 */
+#content { padding:25px 0 0 0}
+.previous2{ display:none}
+.next2{ display:none}
+
+#leftpanel { width:100%; float:left}
+
+#rightpanel { width:100%; float:left; padding-top:35px}
+
+.subnav{ width:100%; margin-left:0}
+.button_salvar { width:100%; float:left; padding-top:20px}
+.button_salvar a{ width:100%; height:21px; border-radius:4px; text-align:center; padding-top:7px;}
+.button_salvar a span { float:none; background:url(../images/icon_star01.gif) no-repeat 11px 0; padding:0 0 15px 31px}
+
+.topinfo { width:100%; float:left; padding:36px 0 8px 0}
+.topinfo.bottom { padding-top:6px}
+.topinfo p { line-height:1.9em}
+.topinfo p span a{ border-radius:3px; padding:3px}
+
+.topinfo p.right { width:100%; text-align:right; line-height:1.4em; padding:15px 0 5px 0}
+
+.bloglist { width:285px; float:left}
+.bloglist article { width:96%; float:left; background:#f2f2f2; border-right:27px solid #d5dee2; margin-bottom:11px}
+.bloglist article:hover { border-right:27px solid #5b889d}
+.bloglist article.active { border-right:27px solid #5b889d}
+.bloglist aside { width:95.4%; float:left; padding:15px 2.2% 15px 2.4%}
+.bloglist aside p{ font-size:12px; color:#6b6a70}
+.bloglist aside p a { color:#6b6a70}
+.bloglist aside figure { width:100%; float:left; text-align:center; padding-bottom:15px}
+.bloglist aside .info{ width:55%; float:left; padding:0}
+.bloglist aside .info h3{ font-size:15px}
+.bloglist aside .priceinfo{ width:40%; float:right}
+.bloglist aside .priceinfo h3{ font-size:16px}
+.bloglist aside .priceinfo .button button {width:100%;border-radius: 4px 4px 0 0;}
+.bloglist aside .priceinfo p{ text-align:right; padding-bottom:18px}
+.bloglist aside .priceinfo .buttons{ width:100%}
+.bloglist aside .priceinfo .button { width:100%}
+.bloglist aside .priceinfo .button a { width:100%; border:none;  border-radius:4px 4px 0 0}
+.bloglist aside .priceinfo .button a.plus { border-radius:0 0 4px 4px}
+
+.previous3{ top:-130px; left:10px; z-index:500}
+.previous3 a{ width:25px; height:66px; float:left; background:url(../images/previous2.png) no-repeat; text-indent:-9999px}
+.next3{ top:-130px; right:10px}
+.next3 a{ width:25px; height:66px; float:left; background:url(../images/next2.png) no-repeat; text-indent:-9999px}
+
+/* inner page02 */
+#bannerinner { width:100%; height:290px; float:left; text-align:center; position:relative}
+#bannerinner figure img{ width:100%}
+
+.slider .rsArrow{display:none !important}
+.royalSlider {height:290px}
+.rsOverflow {height:232px !important;}
+
+img.rsImg {
+    margin: 0 !important;    
+}
+#bgheading-sticky-wrapper{ height: 100px !important;}
+#bgheading { height: 90px;padding: 10px 0 0;}
+#bgheading h3{ width:100%; text-align:center; font-size:13px; color:#232629; padding:7px 0 10px 0}
+#bgheading h3 span{ width: 100%;}
+
+#bgheading .photolist{ display: none;}
+#bgheading .photolist p{ font-size:15px; padding:3px 10px}
+
+#bgheading .bgbuttons { width:305px; margin:0 auto}
+#bgheading .buttons { margin:7px 0 0 0}
+
+#bgheading #disponivel {width: 270px;text-align: center;top: 100px;}
+
+.leftinfo { width:100%; float:left}
+.leftinfo .links { width:100%; float:left; padding-bottom:8px}
+.leftinfo .links .set{ width:300px; margin:0 auto}
+.leftinfo .links p{ font-size:25px; padding:0 10px 20px 0}
+.leftinfo .links p span{ font-size:20px}
+
+.leftinfo .details{ width:100%; float:left; padding-bottom:35px}
+.leftinfo .details h4 span{ width:100%; text-align:center; padding:15px 0 0 0}
+.leftinfo .details aside { width:100%; float:left; padding:25px 0 0 0}
+.leftinfo .details p { font-size:13px; color:#FFFFFF; line-height:1.3em; padding-bottom:13px}
+.leftinfo .details .buttonconnect{ float:left; padding:8px 0 0 0}
+
+.leftinfo .details.right{ width:100%; float:left}
+.leftinfo .details ul { width:100%; padding:13px 0 0 0}
+.leftinfo .details ul li{ width:95%; padding:8px 0 11px 20px}
+.leftinfo .details ul li .tipo{ width:50%; float:left; padding-left:0}
+.leftinfo .details ul li .casa{ width:50%; float:left}
+
+.rightinfo { width:100%; float:left; padding:5px 0 0 0}
+.rightinfo .links{ width:100%; margin-left:0}
+.rightinfo .form { width:100%; padding:30px 0 0 0}
+.rightinfo form fieldset { width:96%; padding:17px 2% 36px 2%}
+.rightinfo form ul { width:100%; padding:0 0 10px 0}
+.rightinfo form .buttons { width:100%; padding:0 0 13px 0px}
+.rightinfo form .button { width:100%}
+
+.bottominfo { width:100%; float:left; padding:40px 0 0 0}
+.bottominfo h3{ width:100%; float:left; color:#e0ad45; font-size:23px; padding-bottom:10px}
+.bottominfo p { font-size:13px; color:#FFFFFF; line-height:1.3em; padding-bottom:15px}
+.bottominfo p span{ font-style:italic}
+.bottominfo .buttonconnect{ float:left; padding:15px 0 0 0}
+
+.bottominfo .article{ width:100%; float:left; padding:5px 0 40px 0}
+.bottominfo .aside{ width:100%; float:right}
+.bottominfo .aside .buttonconnect{ float:left; padding-left:0; margin-top:-55px}
+}
+
+@media only screen and (max-width:320px) {
+footer .associacoes ul li{ width:50%; text-align:center; line-height:.5em; padding:0 0 25px 0}
+.bloglist aside p{ font-size:10px; color:#6b6a70}
+
+#banner  .info{  left: 0; top: 10px; width: 300px;}
+#banner  .item {}
+#banner  .item h2{ font-size: 30px;}
+#banner  .item p{ font-size: 15px;}
+#banner  .item a{ font-size: 12px;}
+
+}
+
