@@ -1,0 +1,162 @@
+<?xml version='1.0' encoding='utf-8'?>
+			<integra>
+			<imovel>
+				  <cod_imb>210</cod_imb>
+				  <tipo>CHÁCARA</tipo>
+				  <pret>Venda</pret>
+				  <finalidade>RESIDENCIAL</finalidade>
+				  <financiamento>0</financiamento>
+				  <endereco>RUA THOMAS ANTONIO GAZOLA</endereco>
+				  <cidade>COSMOPOLIS</cidade>
+				  <uf>SP</uf>
+				  <bairro>RECANTO VIRAPURU</bairro>
+				  <cep />
+				  <garagem>2</garagem>
+				  <dorm>4</dorm>
+				  <banheiro>3</banheiro>
+				  <area_total>8092.00</area_total>
+				  <area_construida>500.00</area_construida>
+				  <valor_imovel>250000</valor_imovel>
+				  <pagacond>0</pagacond>
+				  <valor_cond>0</valor_cond>
+				  <sala>2</sala>
+				  <descricao>CHACARA TODA ILUMINADA, COZINHA PLANEJADA, VENTILADOR DE TETO, ANTENA PARABOLICA, FORNO A LENHA, PISCINA, CHURRASQUEIRA, QUADRA DE FUTEBOL, PLAY, CASA P/ CASEIRO, POÇO SEMI ARTESIANO, CAIXA D´AGUA DE 10.000 LITROS.</descricao>
+				  <quartoemp>0</quartoemp>
+				  <suite>2</suite>
+				  <piscina>1</piscina>
+				  <cod_jb>CH0021</cod_jb>
+				  <exclusividade />
+				  <oportunidade>0</oportunidade>
+				  <destaque>0</destaque>
+				  <area_util>500.00</area_util>
+				  <condfechado>NÃO</condfechado>
+				  <foto>2253052.jpg,2253053.jpg,2253054.jpg,2253056.jpg,2253057.jpg,2253058.jpg</foto>
+				  <miniatura>0,0,1,0,0,0</miniatura>
+				  <tipocat>NORMAL</tipocat>
+				  <elevadores>0</elevadores>
+				  <n_andares>0</n_andares>
+				  <data_atualizado>06/09/2008 00:00:00</data_atualizado>
+				  <local_chave>AGENDAR CASEIRO</local_chave>
+				  <valor_iptu>1200.00</valor_iptu>
+				  <data_exclusividade />
+				  <data_exclusividade_final />
+				  <area_mezanino>0.00</area_mezanino>
+				  <dimensao_terreno />
+				  <metros_terreno>8092.00</metros_terreno>
+				  <metragem_terreno />
+				  <face_imovel />
+				  <isolamento_imovel />
+				  <local_isolamento />
+				  <nome_cond />
+				  <chamada>COZINHA*CHURRASQUEIRA*PISCINA*FORNO A LENHA*CAMPO DE FUTEBOL*PLAYGROUD</chamada>
+				  <numero>1190</numero>
+				  <complemento>1190</complemento>
+				  <tour />
+				  <area>8092.00</area>
+			   </imovel><imovel>
+				  <cod_imb>210</cod_imb>
+				  <tipo>CHÁCARA</tipo>
+				  <pret>Venda</pret>
+				  <finalidade>RESIDENCIAL</finalidade>
+				  <financiamento>0</financiamento>
+				  <endereco>RUA THOMAS ANTONIO GAZOLA</endereco>
+				  <cidade>COSMOPOLIS</cidade>
+				  <uf>SP</uf>
+				  <bairro>RECANTO VIRAPURU</bairro>
+				  <cep />
+				  <garagem>2</garagem>
+				  <dorm>4</dorm>
+				  <banheiro>3</banheiro>
+				  <area_total>8092.00</area_total>
+				  <area_construida>500.00</area_construida>
+				  <valor_imovel>250000</valor_imovel>
+				  <pagacond>0</pagacond>
+				  <valor_cond>0</valor_cond>
+				  <sala>2</sala>
+				  <descricao>CHACARA TODA ILUMINADA, COZINHA PLANEJADA, VENTILADOR DE TETO, ANTENA PARABOLICA, FORNO A LENHA, PISCINA, CHURRASQUEIRA, QUADRA DE FUTEBOL, PLAY, CASA P/ CASEIRO, POÇO SEMI ARTESIANO, CAIXA D´AGUA DE 10.000 LITROS.</descricao>
+				  <quartoemp>0</quartoemp>
+				  <suite>2</suite>
+				  <piscina>1</piscina>
+				  <cod_jb>CH0021</cod_jb>
+				  <exclusividade />
+				  <oportunidade>0</oportunidade>
+				  <destaque>0</destaque>
+				  <area_util>500.00</area_util>
+				  <condfechado>NÃO</condfechado>
+				  <foto>2253052.jpg,2253053.jpg,2253054.jpg,2253056.jpg,2253057.jpg,2253058.jpg</foto>
+				  <miniatura>0,0,1,0,0,0</miniatura>
+				  <tipocat>NORMAL</tipocat>
+				  <elevadores>0</elevadores>
+				  <n_andares>0</n_andares>
+				  <data_atualizado>06/09/2008 00:00:00</data_atualizado>
+				  <local_chave>AGENDAR CASEIRO</local_chave>
+				  <valor_iptu>1200.00</valor_iptu>
+				  <data_exclusividade />
+				  <data_exclusividade_final />
+				  <area_mezanino>0.00</area_mezanino>
+				  <dimensao_terreno />
+				  <metros_terreno>8092.00</metros_terreno>
+				  <metragem_terreno />
+				  <face_imovel />
+				  <isolamento_imovel />
+				  <local_isolamento />
+				  <nome_cond />
+				  <chamada>COZINHA*CHURRASQUEIRA*PISCINA*FORNO A LENHA*CAMPO DE FUTEBOL*PLAYGROUD</chamada>
+				  <numero>1190</numero>
+				  <complemento>1190</complemento>
+				  <tour />
+				  <area>8092.00</area>
+			   </imovel><imovel>
+				  <cod_imb>210</cod_imb>
+				  <tipo>CHÁCARA</tipo>
+				  <pret>Venda</pret>
+				  <finalidade>RESIDENCIAL</finalidade>
+				  <financiamento>0</financiamento>
+				  <endereco>RUA THOMAS ANTONIO GAZOLA</endereco>
+				  <cidade>COSMOPOLIS</cidade>
+				  <uf>SP</uf>
+				  <bairro>RECANTO VIRAPURU</bairro>
+				  <cep />
+				  <garagem>2</garagem>
+				  <dorm>4</dorm>
+				  <banheiro>3</banheiro>
+				  <area_total>8092.00</area_total>
+				  <area_construida>500.00</area_construida>
+				  <valor_imovel>250000</valor_imovel>
+				  <pagacond>0</pagacond>
+				  <valor_cond>0</valor_cond>
+				  <sala>2</sala>
+				  <descricao>CHACARA TODA ILUMINADA, COZINHA PLANEJADA, VENTILADOR DE TETO, ANTENA PARABOLICA, FORNO A LENHA, PISCINA, CHURRASQUEIRA, QUADRA DE FUTEBOL, PLAY, CASA P/ CASEIRO, POÇO SEMI ARTESIANO, CAIXA D´AGUA DE 10.000 LITROS.</descricao>
+				  <quartoemp>0</quartoemp>
+				  <suite>2</suite>
+				  <piscina>1</piscina>
+				  <cod_jb>CH0021</cod_jb>
+				  <exclusividade />
+				  <oportunidade>0</oportunidade>
+				  <destaque>0</destaque>
+				  <area_util>500.00</area_util>
+				  <condfechado>NÃO</condfechado>
+				  <foto>2253052.jpg,2253053.jpg,2253054.jpg,2253056.jpg,2253057.jpg,2253058.jpg</foto>
+				  <miniatura>0,0,1,0,0,0</miniatura>
+				  <tipocat>NORMAL</tipocat>
+				  <elevadores>0</elevadores>
+				  <n_andares>0</n_andares>
+				  <data_atualizado>06/09/2008 00:00:00</data_atualizado>
+				  <local_chave>AGENDAR CASEIRO</local_chave>
+				  <valor_iptu>1200.00</valor_iptu>
+				  <data_exclusividade />
+				  <data_exclusividade_final />
+				  <area_mezanino>0.00</area_mezanino>
+				  <dimensao_terreno />
+				  <metros_terreno>8092.00</metros_terreno>
+				  <metragem_terreno />
+				  <face_imovel />
+				  <isolamento_imovel />
+				  <local_isolamento />
+				  <nome_cond />
+				  <chamada>COZINHA*CHURRASQUEIRA*PISCINA*FORNO A LENHA*CAMPO DE FUTEBOL*PLAYGROUD</chamada>
+				  <numero>1190</numero>
+				  <complemento>1190</complemento>
+				  <tour />
+				  <area>8092.00</area>
+			   </imovel></integra>

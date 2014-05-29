@@ -1,0 +1,12 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2012-11-05 13:31:56 -02:00 --- error: Não foi possível capturar  Kohana_Database_Exception: Houve um erro no seguinte comando SQL: Table 'hh.site_configs' doesn't exist - SHOW COLUMNS FROM `site_configs` no arquivo C:/xampplite/htdocs/Kohana_v2.3.4/system/libraries/drivers/Database/Mysql.php, linha 371
+2012-11-05 13:32:28 -02:00 --- error: Não foi possível capturar  Kohana_Database_Exception: Houve um erro no seguinte comando SQL: Table 'imobiliaria.sitemap_regras' doesn't exist - SHOW COLUMNS FROM `sitemap_regras` no arquivo C:/xampplite/htdocs/Kohana_v2.3.4/system/libraries/drivers/Database/Mysql.php, linha 371
+2012-11-05 13:36:57 -02:00 --- error: Não foi possível capturar  Kohana_Database_Exception: Houve um erro no seguinte comando SQL: Table 'imobiliaria.tipos' doesn't exist - SHOW COLUMNS FROM `tipos` no arquivo C:/xampplite/htdocs/Kohana_v2.3.4/system/libraries/drivers/Database/Mysql.php, linha 371
+2012-11-05 14:06:02 -02:00 --- error: Não foi possível capturar  Kohana_Database_Exception: Houve um erro no seguinte comando SQL: Table 'imobiliaria.tipos' doesn't exist - SHOW COLUMNS FROM `tipos` no arquivo C:/xampplite/htdocs/Kohana_v2.3.4/system/libraries/drivers/Database/Mysql.php, linha 371
+2012-11-05 14:06:21 -02:00 --- error: Não foi possível capturar  PHP Error: Function split() is deprecated no arquivo C:/xampplite/htdocs/homehunters/application/helpers/busca.php, linha 186
+2012-11-05 14:10:29 -02:00 --- error: Não foi possível capturar  PHP Error: Function split() is deprecated no arquivo C:/xampplite/htdocs/homehunters/application/helpers/busca.php, linha 245
+2012-11-05 14:10:52 -02:00 --- error: Não foi possível capturar  PHP Error: Function split() is deprecated no arquivo C:/xampplite/htdocs/homehunters/application/helpers/tools.php, linha 19
+2012-11-05 14:14:00 -02:00 --- error: Não foi possível capturar  PHP Error: preg_split() [<a href='function.preg-split'>function.preg-split</a>]: Delimiter must not be alphanumeric or backslash no arquivo C:/xampplite/htdocs/homehunters/application/helpers/tools.php, linha 19
+2012-11-05 14:14:33 -02:00 --- error: Não foi possível capturar  Kohana_404_Exception: A página <tt>comprar</tt> requisitada, não foi encontrada. no arquivo C:/xampplite/htdocs/Kohana_v2.3.4/system/core/Kohana.php, linha 841
+2012-11-05 14:27:02 -02:00 --- error: Não foi possível capturar  PHP Error: Function ereg() is deprecated no arquivo C:/xampplite/htdocs/homehunters/application/views/painel_filtros.php, linha 10

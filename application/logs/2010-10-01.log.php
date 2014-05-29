@@ -1,0 +1,10 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2010-10-01 12:31:45 -03:00 --- error: Não foi possível capturar  PHP Error: Attempt to assign property of non-object no arquivo C:/Users/PC/Documents/xampp/htdocs/imoveis/application/controllers/imoveis.php, linha 41
+2010-10-01 14:38:31 -03:00 --- error: Não foi possível capturar  Kohana_Exception: Nao foi possivel executar a requisicao vista, <tt>contato/form</tt>,. no arquivo C:/Users/PC/Documents/xampp/htdocs/Kohana_v2.3.4/system/core/Kohana.php, linha 1162
+2010-10-01 14:38:37 -03:00 --- error: Não foi possível capturar  Kohana_Exception: Nao foi possivel executar a requisicao vista, <tt>contato/form</tt>,. no arquivo C:/Users/PC/Documents/xampp/htdocs/Kohana_v2.3.4/system/core/Kohana.php, linha 1162
+2010-10-01 14:38:41 -03:00 --- error: Não foi possível capturar  Kohana_Exception: Nao foi possivel executar a requisicao vista, <tt>contato/form</tt>,. no arquivo C:/Users/PC/Documents/xampp/htdocs/Kohana_v2.3.4/system/core/Kohana.php, linha 1162
+2010-10-01 17:27:36 -03:00 --- error: Não foi possível capturar  Kohana_404_Exception: A página <tt>comprar-apartamento-cambui</tt> requisitada, não foi encontrada. no arquivo C:/Users/PC/Documents/xampp/htdocs/Kohana_v2.3.4/system/core/Kohana.php, linha 841
+2010-10-01 17:30:02 -03:00 --- error: Não foi possível capturar  Kohana_404_Exception: A página <tt>comprar-apartamento-sdsadsadasdas</tt> requisitada, não foi encontrada. no arquivo C:/Users/PC/Documents/xampp/htdocs/Kohana_v2.3.4/system/core/Kohana.php, linha 841
+2010-10-01 17:30:14 -03:00 --- error: Não foi possível capturar  Kohana_404_Exception: A página <tt>comprar-apartamento</tt> requisitada, não foi encontrada. no arquivo C:/Users/PC/Documents/xampp/htdocs/Kohana_v2.3.4/system/core/Kohana.php, linha 841
+2010-10-01 17:30:29 -03:00 --- error: Não foi possível capturar  Kohana_404_Exception: A página <tt>quero_comprar</tt> requisitada, não foi encontrada. no arquivo C:/Users/PC/Documents/xampp/htdocs/Kohana_v2.3.4/system/core/Kohana.php, linha 841

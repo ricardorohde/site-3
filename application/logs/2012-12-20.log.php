@@ -1,0 +1,11 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2012-12-20 11:29:05 -02:00 --- error: Não foi possível capturar  PHP Error: array_splice() [<a href='function.array-splice'>function.array-splice</a>]: The first argument should be an array no arquivo application/helpers/busca.php, linha 61
+2012-12-20 12:02:17 -02:00 --- error: Não foi possível capturar  PHP Error: array_splice() [<a href='function.array-splice'>function.array-splice</a>]: The first argument should be an array no arquivo application/helpers/tools.php, linha 114
+2012-12-20 13:49:19 -02:00 --- error: Não foi possível capturar  PHP Error: array_key_exists() [<a href='function.array-key-exists'>function.array-key-exists</a>]: The second argument should be either an array or an object no arquivo application/helpers/busca.php, linha 7
+2012-12-20 13:57:33 -02:00 --- error: Não foi possível capturar  PHP Error: array_key_exists() [<a href='function.array-key-exists'>function.array-key-exists</a>]: The second argument should be either an array or an object no arquivo application/helpers/busca.php, linha 185
+2012-12-20 15:20:11 -02:00 --- error: Não foi possível capturar  PHP Error: array_search() [<a href='function.array-search'>function.array-search</a>]: Wrong datatype for second argument no arquivo application/views/painel_filtros.php, linha 106
+2012-12-20 15:46:23 -02:00 --- error: Não foi possível capturar  Kohana_404_Exception: A página <tt>quero-comprar</tt> requisitada, não foi encontrada. no arquivo Kohana_v2.3.4/system/core/Kohana.php, linha 841
+2012-12-20 15:49:22 -02:00 --- error: Não foi possível capturar  PHP Error: array_search() [<a href='function.array-search'>function.array-search</a>]: Wrong datatype for second argument no arquivo application/helpers/busca.php, linha 385
+2012-12-20 15:50:07 -02:00 --- error: Não foi possível capturar  PHP Error: array_search() [<a href='function.array-search'>function.array-search</a>]: Wrong datatype for second argument no arquivo application/helpers/busca.php, linha 385
+2012-12-20 15:55:32 -02:00 --- error: Não foi possível capturar  PHP Error: array_search() [<a href='function.array-search'>function.array-search</a>]: Wrong datatype for second argument no arquivo application/helpers/busca.php, linha 46

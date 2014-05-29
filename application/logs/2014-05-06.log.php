@@ -1,0 +1,5 @@
+<?php defined('SYSPATH') or die('No direct script access.'); ?>
+
+2014-05-06 19:28:45 +00:00 --- error: Não foi possível capturar  PHP Error: require_once(D:\Programas\wamp\www\next\site\application\controllers/../../prm/PrmClient.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory no arquivo D:/Programas/wamp/www/next/site/application/controllers/vip.php, linha 4
+2014-05-06 19:31:00 +00:00 --- error: Não foi possível capturar  PHP Error: require_once(D:\Programas\wamp\www\next\site\application\controllers/../../prm/PrmClient.php) [<a href='function.require-once'>function.require-once</a>]: failed to open stream: No such file or directory no arquivo D:/Programas/wamp/www/next/site/application/controllers/vip.php, linha 4
+2014-05-06 19:44:31 +00:00 --- error: Não foi possível capturar  Swift_ConnectionException: The SMTP connection failed to start [mail.nextsim.com.br:25]: fsockopen returned Error Number 0 and Error String 'php_network_getaddresses: getaddrinfo failed: Este host n�o � conhecido. ' no arquivo D:/Programas/wamp/www/kohana/system/vendor/swift/Swift/Connection/SMTP.php, linha 309
