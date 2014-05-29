@@ -1,0 +1,761 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Fonts
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   FONTS
+----------------------------------------- */
+
+
+
+@font-face {
+    font-family: 'helveticaneuelt_std_cnregular';
+    src: url('helveticaneueltstd-cn-webfont.eot');
+    src: url('helveticaneueltstd-cn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('helveticaneueltstd-cn-webfont.woff') format('woff'),
+         url('helveticaneueltstd-cn-webfont.ttf') format('truetype'),
+         url('helveticaneueltstd-cn-webfont.svg#helveticaneuelt_std_cnregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneuelt_std_cnbold';
+    src: url('helveticaneueltstd-bdcn-webfont.eot');
+    src: url('helveticaneueltstd-bdcn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('helveticaneueltstd-bdcn-webfont.woff') format('woff'),
+         url('helveticaneueltstd-bdcn-webfont.ttf') format('truetype'),
+         url('helveticaneueltstd-bdcn-webfont.svg#helveticaneuelt_std_cnbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneuelt_std_lt_cnRg';
+    src: url('helveticaneueltstd-ltcn-webfont.eot');
+    src: url('helveticaneueltstd-ltcn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('helveticaneueltstd-ltcn-webfont.woff') format('woff'),
+         url('helveticaneueltstd-ltcn-webfont.ttf') format('truetype'),
+         url('helveticaneueltstd-ltcn-webfont.svg#helveticaneuelt_std_lt_cnRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneuelt_std_med_cnRg';
+    src: url('helveticaneueltstd-mdcn-webfont.eot');
+    src: url('helveticaneueltstd-mdcn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('helveticaneueltstd-mdcn-webfont.woff') format('woff'),
+         url('helveticaneueltstd-mdcn-webfont.ttf') format('truetype'),
+         url('helveticaneueltstd-mdcn-webfont.svg#helveticaneuelt_std_med_cnRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneuelt_std_thinRg';
+    src: url('helveticaneueltstd-th-webfont.eot');
+    src: url('helveticaneueltstd-th-webfont.eot?#iefix') format('embedded-opentype'),
+         url('helveticaneueltstd-th-webfont.woff') format('woff'),
+         url('helveticaneueltstd-th-webfont.ttf') format('truetype'),
+         url('helveticaneueltstd-th-webfont.svg#helveticaneuelt_std_thinRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'helveticaneuelt_std_thin_cnRg';
+    src: url('helveticaneueltstd-thcn-webfont.eot');
+    src: url('helveticaneueltstd-thcn-webfont.eot?#iefix') format('embedded-opentype'),
+         url('helveticaneueltstd-thcn-webfont.woff') format('woff'),
+         url('helveticaneueltstd-thcn-webfont.ttf') format('truetype'),
+         url('helveticaneueltstd-thcn-webfont.svg#helveticaneuelt_std_thin_cnRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'myriad_probold_italic';
+    src: url('myriadpro-boldit_0-webfont.eot');
+    src: url('myriadpro-boldit_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('myriadpro-boldit_0-webfont.woff') format('woff'),
+         url('myriadpro-boldit_0-webfont.ttf') format('truetype'),
+         url('myriadpro-boldit_0-webfont.svg#myriad_probold_italic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'MyriadProBold';
+    src: url('myriadpro-bold_0-webfont.eot');
+    src: url('myriadpro-bold_0-webfont.eot?#iefix') format('embedded-opentype'),
+         url('myriadpro-bold_0-webfont.woff') format('woff'),
+         url('myriadpro-bold_0-webfont.ttf') format('truetype'),
+         url('myriadpro-bold_0-webfont.svg#MyriadProBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*
+----------------------------------------
+01. foundation overwrite
+----------------------------------------   */
+html { font-size: 100%; }
+
+.row { width: 985px; max-width: 100%; min-width: 768px; margin: 0 auto; }
+
+
+/*
+----------------------------------------
+01. default elements
+----------------------------------------
+* {
+	margin: 0;
+	padding: 0;
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline
+}
+ul, li, ol {
+	list-style:none
+} */
+/* render html5 elements as block
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
+	display: block;
+}
+
+html {
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+}
+
+sub, sup {
+	position: relative;
+	font-size: 75%;
+	line-height: 0;
+	vertical-align: baseline;
+}
+
+sup { top: -0.5em; }
+
+sub { bottom: -0.25em; }
+
+img {
+  vertical-align: middle;
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-weight:normal; line-height:1em
+}
+
+
+body { font-family:Verdana, Arial, Helvetica, sans-serif; background:#0e0e0e}
+html, body { overflow-x:hidden}   */
+
+.show{ display:block}
+.hide{ display:none}
+
+.show1{ display:block}
+.hide1{ display:none}
+
+a, a:visited { text-decoration:none; outline:0; }
+a:hover, a:focus { text-decoration:underline }
+
+p { font-size:13px; color:#333333; line-height:1.3em}
+p a{ color:#333333}
+
+h1{ font-size:35px; color:#FFFFFF; text-align:center; font-family:"helveticaneuelt_std_cnbold",Arial, Helvetica, sans-serif; padding-bottom:25px; margin:0 -5%}
+h1 span{ font-size:30px; font-family:"helveticaneuelt_std_thin_cnRg",Arial, Helvetica, sans-serif}
+
+h2 { font-size:25px; color:#ffffff; font-family:"helveticaneuelt_std_cnbold",Arial, Helvetica, sans-serif}
+h2 a{ color:#ffffff}
+
+h3 { font-size:22px; color:#ffffff; font-family:"helveticaneuelt_std_cnbold",Arial, Helvetica, sans-serif}
+h3 a{ color:#ffffff}
+
+h4 { font-size:25px; color:#292929; font-family:"helveticaneuelt_std_cnregular",Arial, Helvetica, sans-serif}
+h4 span{ font-family:"helveticaneuelt_std_thin_cnRg",Arial, Helvetica, sans-serif}
+h4 a{ color:#292929}
+
+h5 { font-size:12px; color:#5b889d; font-weight:bold}
+h5 a{ color:#5b889d}
+
+/*
+----------------------------------------
+02. wrapper
+----------------------------------------
+*/
+
+.wrapper { width:985px; margin:0 auto}
+
+/*
+----------------------------------------
+03. header
+----------------------------------------
+*/
+
+
+header[role="banner"] { width: 100%; min-height: 78px; float: left; background: url(../images/trans01.png) repeat; padding: 17px 0 10px; }
+.branding a{display: block; width: 112px; height: 55px; background: url(../images/logo.png) no-repeat; text-indent: -9000px; float: left;}
+
+nav[role="navigation"] { float:left; padding:0 0 0 30px}
+nav[role="navigation"] ul{ float:left;  font-family:"helveticaneuelt_std_cnbold",Arial, Helvetica, sans-serif; list-style-type: none;}
+nav[role="navigation"] ul li{ float:left; color:#292929; padding-right:7px}
+nav[role="navigation"] ul li a{ font-size:18px; height:46px; float:left; color:#292929; background:url(../images/trans02.png) repeat; border-radius:4px; behavior: url(PIE.htc); position:relative; padding:11px 20px 0 20px}
+nav[role="navigation"] ul li a:hover{ text-decoration:none; color:#FFFFFF; background:url(../images/trans03.png) repeat}
+nav[role="navigation"] ul li a.active{ text-decoration:none; color:#FFFFFF; background:url(../images/trans03.png) repeat}
+nav[role="navigation"] ul li a img{ margin:-3px -5px 0 10px}
+
+.rightlinks { width:220px; float:right; padding:0px 0 0 0}
+.rightlinks aside{ float:right}
+.rightlinks p{ margin: 0; font-size:16px; color:#1b1b1b; text-align:right; font-family:"helveticaneuelt_std_cnbold",Arial, Helvetica, sans-serif; padding-bottom:3px}
+.rightlinks p span{ font-size:14px; text-align:right; text-transform:uppercase; font-family:"helveticaneuelt_std_lt_cnRg",Arial, Helvetica, sans-serif}
+.rightlinks ul { float:right; font-size:14px; font-family:"helveticaneuelt_std_cnbold",Arial, Helvetica, sans-serif}
+.rightlinks ul li{ float:left; color:#292929; padding-left:5px}
+.rightlinks ul li a{ height:23px; float:left; color:#292929; background:url(../images/trans02.png) repeat; border-radius:3px; behavior: url(PIE.htc); position:relative; padding:0px 12px 0 12px}
+.rightlinks ul li a:hover{ text-decoration:none; color:#FFFFFF; background:url(../images/trans03.png) repeat}
+.rightlinks ul li a.active{ text-decoration:none; color:#FFFFFF; background:url(../images/trans03.png) repeat}
+
+/*
+----------------------------------------
+04. banner
+----------------------------------------
+*/
+
+#banner { width:100%; height:573px; float:left; text-align:center; position:relative}
+#banner img{ height:573px}
+#next #banner img{ height:1639px}
+#next footer{margin-top: 1054px;}
+/*
+----------------------------------------
+04. 01 banner form
+----------------------------------------
+*/
+
+.bgbannerform { width:557px; margin:0 auto; position:relative; z-index:100}
+.bannerform { width:100%; float:left; margin-top:-455px}
+.bannerform h1{ font-size:35px; color:#FFFFFF; text-align:center; font-family:"helveticaneuelt_std_cnbold",Arial, Helvetica, sans-serif; padding-bottom:25px; margin:0 -5%}
+.bannerform h1 span{ font-size:30px; font-family:"helveticaneuelt_std_thin_cnRg",Arial, Helvetica, sans-serif}
+
+.bannerform .box{ width:517px; float:left; background:#bf7616; border-radius:5px; behavior: url(PIE.htc); padding:20px; position:relative}
+
+.bannerform .idTabs{ width:100%; float:left}
+.bannerform .idTabs ul{ width:100%; float:left; font-size:16px; font-family:"helveticaneuelt_std_cnbold",Arial, Helvetica, sans-serif}
+.bannerform .idTabs ul li{ float:left; padding:0 10px 0 0}
+.bannerform .idTabs ul li a{ height:32px; float:left; color:#FFFFFF; border-radius:5px; behavior: url(PIE.htc); position:relative; padding:0 15px}
+.bannerform .idTabs ul li a span{ height:31px; float:left; padding:7px 0 0 0; margin-bottom:-6px}
+.bannerform .idTabs ul li a.selected{ background:#fb930b}
+.bannerform .idTabs ul li a:hover{ background:#fb930b}
+.bannerform .idTabs ul li a.selected span{ background:url(../images/arrow04.gif) no-repeat bottom center}
+.bannerform .idTabs ul li a:hover span{ background:url(../images/arrow04.gif) no-repeat bottom center}
+
+.bannerform .form1{ width:100%; float:left}
+.bannerform .form1 p{ font-size:11px; color:#FFFFFF}
+.bannerform .form1 p a{ color:#FFFFFF}
+.bannerform .form1 fieldset{ float:left; padding-bottom:8px}
+.bannerform .form1 aside{ width:100%; float:left; padding:18px 0 0 0}
+.bannerform .form1 .input{ width:118px; height:13px; float:left; background:#FFFFFF; border:2px solid #fb930b; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#272727; border-radius:7px; behavior: url(PIE.htc); position:relative; padding:8px}
+.bannerform .form1 .input2{ width:65px}
+
+.bannerform .form1 input::-webkit-input-placeholder { color:#c4bfbf; font-style:italic; font-size:12px;}
+.bannerform .form1 input:-moz-placeholder { color:#c4bfbf; font-style:italic}
+
+.bannerform .form1 .sbHolder{ float: left; background:url(../images/select01.png) no-repeat; font-size:12px; color:#272727; font-family:Verdana, Arial, Helvetica, sans-serif; height:33px; position: relative; width:189px; margin-left:13px}
+.bannerform .form1 .sbSelector{ color:#272727; display:block; height:27px; left: 0; top:1px; line-height:33px; position: absolute; outline:none; text-indent: 10px; width: 189px}
+.bannerform .form1 .sbSelector:link{ color:#272727; text-decoration: none}
+.bannerform .form1 .sbOptions{ background:#fff; border:2px solid #fb930b; border-top:none; border-radius:0 0 7px 7px; behavior: url(PIE.htc); list-style: none; left: 0px; margin: 0; padding: 2px 0 0 0; position: absolute; top: 30px; width:185px; z-index:500}
+.bannerform .form1 .sbOptions li{ width:185px; height:auto; padding:0 6px; background:none; margin:0; position:relative}
+.bannerform .form1 .sbOptions a{ display: block; color: #333333; text-decoration: none; padding: 2px 0 4px 2px}
+.bannerform .form1 .sbOptions a:hover{ color: #666666}
+
+.bannerform .form1 .selectlist2{ width:79px; float:left; margin-left:6px}
+.bannerform .form1 .selectlist3{ margin-right:-10px}
+.bannerform .form1 .selectlist2 .sbHolder{  background:url(../images/select02.png) no-repeat; width:79px; margin:0}
+.bannerform .form1 .selectlist2 .sbSelector{ width:79px}
+.bannerform .form1 .selectlist2 .sbOptions{ width:75px}
+.bannerform .form1 .selectlist2 .sbOptions li{ width:75px}
+
+.bannerform .form1 .ate{ float:left; padding:10px 3px}
+
+.bannerform .form1 .selectlist4{ width:189px; float:left}
+.bannerform .form1 .selectlist4 p{ float:left; color:#e5c8a2; font-style:italic; padding:4px 0 0 14px}
+
+.bannerform .form1 .buttonsearch{ width:94px; height:32px; float:right; font-size:16px; color:#FFFFFF; font-family:"helveticaneuelt_std_cnbold",Arial, Helvetica, sans-serif; text-align:right; background:#fb930b url(../images/icon_search.png) no-repeat 11px 6px; border:none; border-radius:5px; behavior: url(PIE.htc); position:relative; cursor:pointer; padding:0 12px 0 0}
+
+.bannerform .form1 .time { float:left; background:url(../images/icon_time.gif) no-repeat 0 1px; padding:0 0 0 19px}
+.bannerform .form1 .right { float:right}
+
+.bannerform .box2{ width:517px; min-height:100px; float:left; background:url(../images/trans04.png) repeat; border-radius:5px; behavior: url(PIE.htc); padding:20px; margin-top:13px; position:relative}
+.bannerform .box2 h2{ padding-bottom:9px}
+.bannerform .box2 p{ width:74%; float:left; font-size:12px; color:#FFFFFF; font-weight:bold}
+.bannerform .box2 .atendimento{ float:right; font-size:15px; color:#FFFFFF; text-decoration:none; text-shadow:#666 0 0 3px, #666 0 0 3px; font-family:"helveticaneuelt_std_cnbold",Arial, Helvetica, sans-serif; background:#5b889d; border:1px solid #4f6169; border-radius:4px; behavior: url(PIE.htc); position:relative; padding:10px 14px}
+
+/*
+----------------------------------------
+05. middle content
+----------------------------------------
+*/
+
+#middlecontent { width:100%; float:left; background:#000000; padding:57px 0}
+
+#middlecontent figure{ width:307px; float:left}
+
+#middlecontent .steps{ width:329px; float:left; padding:7px 0 0 25px}
+#middlecontent .steps aside{ width:319px; min-height:67px; float:left; background:url(../images/bg_step1.gif) no-repeat top left; padding:45px 0 0 10px}
+#middlecontent .steps aside h3{ width:191px; float:left; padding:0 0 9px 128px}
+#middlecontent .steps aside h3 span{ width:34px; height:37px; float:left; background:url(../images/bg_number.png) no-repeat; color:#FFFFFF; font-size:25px; text-align:center; padding:6px 0 0 0; margin:-8px 8px 0 0; position:relative}
+#middlecontent .steps aside p { font-size:12px; color:#cfcdcd; padding:0 15px 0 0}
+#middlecontent .steps aside p a{ color:#cfcdcd}
+
+#middlecontent .steps .step2{ width:319px; min-height:39px; background:url(../images/bg_step2.gif) no-repeat top right; padding:35px 0 0 10px; margin-top:-10px}
+#middlecontent .steps .step2 h3{ width:319px; float:left; padding:0 0 13px 0}
+
+#middlecontent .steps .step3{ width:319px; min-height:43px; background:url(../images/bg_step3.gif) no-repeat top left; padding:40px 0 0 10px}
+#middlecontent .steps .step3 h3{ width:209px; float:left; padding:0 0 13px 130px; margin-right:-20px}
+
+#middlecontent article{ width:290px; float:right; padding:72px 0 0 0}
+#middlecontent article h5{ width:290px; float:left; line-height:.5em; padding-bottom:32px}
+#middlecontent article p { font-size:12px; color:#cfcdcd; text-align:center; padding-bottom:43px}
+#middlecontent article p { color:#cfcdcd}
+
+.buttonconnect { width:100%; float:left}
+.buttonconnect a{ width:288px; height:53px; float:left; color:#FFFFFF; text-decoration:none; font-size:25px; font-family:"helveticaneuelt_std_cnbold",Arial, Helvetica, sans-serif; text-shadow:#666 0 0 5px, #666 0 0 5px; background:#e0ad45; border:1px solid #8a8b8b; border-radius:5px; behavior: url(PIE.htc); position:relative}
+.buttonconnect a span { height:36px; float:left; background:url(../images/icon_con01.png) no-repeat 0 0; padding:22px 0 0 55px; margin-top:-10px}
+
+.buttonconnect a.green{ background:#115b16}
+.buttonconnect a.green span { background:url(../images/icon_phone.png) no-repeat 11px 0; padding-left:65px}
+
+.buttonconnect a.blue{ background:#5b889d}
+.buttonconnect a.blue span { background:url(../images/icon_info.png) no-repeat 5px 0; padding-left:60px}
+
+/*
+----------------------------------------
+06. recents
+----------------------------------------
+*/
+
+#recents { width:100%; min-height:318px; float:left; background:#e1e1e1; padding:61px 0}
+#recents h4{ padding:0 0 28px 0}
+#recents .wrapper{ position:relative}
+#recents .slider{ width:105%; float:left; margin-right:-5%; position:relative}
+#recents .previous{ float:left; position:absolute; top:53px; left:-140px}
+#recents .previous a{ width:58px; height:153px; float:left; background:url(../images/previous.png) no-repeat; text-indent:-9999px}
+#recents .next{ float:left; position:absolute; top:53px; right:-134px}
+#recents .next a{ width:58px; height:153px; float:left; background:url(../images/next.png) no-repeat; text-indent:-9999px}
+
+#recents article{ width:179px; height:190px; float:left; padding:17px 0 0 0; margin-right:20px}
+#recents article figure{ width:100%; float:left; text-align:center; line-height:.5em; padding-bottom:14px}
+#recents article p{ font-size:17px; color:#292929; line-height:1.2em; font-family:"helveticaneuelt_std_cnbold",Arial, Helvetica, sans-serif}
+#recents article p span{ font-family:"helveticaneuelt_std_cnregular",Arial, Helvetica, sans-serif}
+
+#recents article:hover {border-top:3px solid #e0ad45; padding-top:14px}
+#recents article.active {border-top:3px solid #e0ad45; padding-top:14px}
+
+/*
+----------------------------------------
+07. footer
+---------------------------------------- */
+
+
+footer { float:none; padding:25px 0;  color:#898989; line-height:1.6em;  background-color: #0E0E0E;}
+footer p{ font-size:11px;color:#898989; line-height:1.6em }
+footer .logo{ padding-bottom:13px}
+footer .enter{ width:auto; font-size:11px; color:#cfcdcd; background:url(../images/icon_em.gif) no-repeat 6px 0; padding:3px 0 15px 39px; margin-top:25px}
+footer .enter a{ color:#FFFFFF}
+
+footer ul{ list-style-type: none;}
+footer ul li{ color:#cfcdcd; line-height:1.8em;  font-size:11px;}
+footer ul li a{ color:#cfcdcd }
+
+footer  h3{ font-size:19px; color:#e0ad45; padding-bottom:20px; margin:20px 0 0 0;}
+
+footer .rightinfo aside{ background:#262626; border-radius:4px; behavior:url(PIE.htc); position:relative; padding:20px 10px 15px 10px}
+footer .rightinfo aside .icon{ background:url(../images/icon_dentro.gif) no-repeat 0 0; padding:0 0 5px 42px}
+footer .rightinfo aside h3{ font-size:19px; padding-bottom:3px; margin: 0}
+footer .rightinfo aside p{ font-size:9px; color:#00c2f3; font-weight:bold; margin: 0; padding: 0}
+footer .rightinfo aside .buttonsignup{ float:right}
+footer .rightinfo aside .buttonsignup a{ width:55px; height:24px; float:left; background:#00c2f3; border:1px solid #8a8b8b; font-size:16px; color:#FFFFFF; font-family:"helveticaneuelt_std_cnbold",Arial, Helvetica, sans-serif; text-decoration:none; text-align:center; border-radius:6px; behavior: url(PIE.htc); position:relative; padding:4px 0 0 0}
+footer .rightinfo ul{ float:right; font-family:Georgia, "Times New Roman", Times, serif; padding:9px 0 0 0}
+footer .rightinfo ul li{ float:left; color:#5c6167; padding-left:7px}
+footer .rightinfo ul li span{ float:left; font-size:18px; font-weight:bold; padding:5px 5px 0 0}
+
+footer .associacoes { width:100%; float:left; border-top:1px solid #182a33; padding:29px 0 60px 0}
+footer .associacoes p{ width:15%; float:left; font-size:17px; color:#8d8d8d; font-family:"helveticaneuelt_std_lt_cnRg",Arial, Helvetica, sans-serif; padding:24px 4% 0 0}
+footer .associacoes ul{ width:88%; float:left; margin-right:-8%}
+footer .associacoes ul li{ float:left; line-height:.5em; padding-right:4.5%}
+
+footer .copyrights p{ float:left; font-size:11px; color:#6b6a70; padding-right:20px}
+footer .copyrights p a{ color:#6b6a70}
+footer .copyrights p.tersm{ color:#FFFFFF}
+footer .copyrights p.tersm a{ color:#FFFFFF; padding:0 10px}
+
+footer .column1{ width:20%; float:left; padding-right:3%}
+footer .list{ width:45%; float:left; padding:45px 0 0 0}
+footer .list aside{ width:27%; float:left}
+footer .list aside.second{ width:30%}
+footer .list aside.third{ width:38%}
+footer .rightinfo{ width:293px; float:right; padding:36px 0 0 0}
+footer .associacoes { width:100%; float:left; border-top:1px solid #182a33; padding:29px 0 60px 0}
+footer .copyrights{ width:100%; float:left}
+
+/*
+footer { width:100%; float:left; padding:25px 0}
+footer ul{ list-style-type: none;}
+footer ul li{ color:#cfcdcd; line-height:1.8em;  font-size:11px;}
+footer ul li a{ color:#cfcdcd }
+footer  h3{ font-size:19px; color:#e0ad45; padding-bottom:20px; margin:20px 0 0 0;}
+
+footer .column1{ width:20%; float:left; padding-right:3%}
+footer .column1 p{ width:100%%; float:left; font-size:11px; color:#898989; line-height:1.6em}
+footer .column1 .logo{ float:left; line-height:.5em; padding-bottom:13px}
+footer .column1 .enter{ width:auto; font-size:11px; color:#cfcdcd; background:url(../images/icon_em.gif) no-repeat 6px 0; padding:3px 0 15px 39px; margin-top:25px}
+footer .column1 .enter a{ color:#FFFFFF}
+
+footer .list{ width:45%; float:left; padding:45px 0 0 0}
+footer .list aside{ width:27%; float:left}
+footer .list aside.second{ width:30%}
+footer .list aside.third{ width:38%}
+footer .list aside h3{ font-size:19px; color:#e0ad45; padding-bottom:20px}
+footer .list aside ul{ width:100%; float:left; font-size:11px}
+footer .list aside ul li{ width:100%; float:left; color:#cfcdcd; line-height:1.8em}
+footer .list aside ul li a{ color:#cfcdcd}
+
+footer .rightinfo{ width:293px; float:right; padding:36px 0 0 0}
+footer .rightinfo aside{  background:#262626; border-radius:4px; behavior:url(PIE.htc); position:relative; padding:20px 10px 15px 10px}
+footer .rightinfo aside .icon{ background:url(../images/icon_dentro.gif) no-repeat 0 0; padding:0 0 5px 42px}
+footer .rightinfo aside h3{ font-size:19px; padding-bottom:3px}
+footer .rightinfo aside p{ font-size:9px; color:#00c2f3; font-weight:bold}
+footer .rightinfo aside .buttonsignup{ float:right}
+footer .rightinfo aside .buttonsignup a{ width:55px; height:24px; float:left; background:#00c2f3; border:1px solid #8a8b8b; font-size:16px; color:#FFFFFF; font-family:"helveticaneuelt_std_cnbold",Arial, Helvetica, sans-serif; text-decoration:none; text-align:center; border-radius:6px; behavior: url(PIE.htc); position:relative; padding:4px 0 0 0}
+footer .rightinfo ul{ float:right; font-family:Georgia, "Times New Roman", Times, serif; padding:9px 0 0 0}
+footer .rightinfo ul li{ float:left; color:#5c6167; padding-left:7px}
+footer .rightinfo ul li span{ float:left; font-size:18px; font-weight:bold; padding:5px 5px 0 0}
+
+footer .associacoes { width:100%; float:left; border-top:1px solid #182a33; padding:29px 0 60px 0}
+footer .associacoes p{ width:15%; float:left; font-size:17px; color:#8d8d8d; font-family:"helveticaneuelt_std_lt_cnRg",Arial, Helvetica, sans-serif; padding:24px 4% 0 0}
+footer .associacoes ul{ width:88%; float:left; margin-right:-8%}
+footer .associacoes ul li{ float:left; line-height:.5em; padding-right:4.5%}
+
+footer .copyrights{ width:100%; float:left}
+footer .copyrights p{ float:left; font-size:11px; color:#6b6a70; padding-right:20px}
+footer .copyrights p a{ color:#6b6a70}
+footer .copyrights p.tersm{ color:#FFFFFF}
+footer .copyrights p.tersm a{ color:#FFFFFF; padding:0 10px}
+*/
+
+
+
+
+/*
+----------------------------------------
+08. inner - page01
+----------------------------------------
+*/
+
+#listaImoveis { background:#e1e1e1 url(../images/gradient01.gif) repeat-x top left; padding:0 0 50px 0}
+
+#headerinner { width:100%; float:left; background:#e1e1e1; margin:0}
+#headerinner header{ background:none}
+
+#container { width:100%; float:left; background:#e1e1e1 url(../images/gradient01.gif) repeat-x top left; padding:0 0 50px 0}
+#container .wrapper{ position:relative}
+
+#content { width:100%; float:left; padding:25px 0 0 0}
+
+.previous2{ float:left; position:absolute; top:330px; left:-115px}
+.previous2 a{ width:44px; height:78px; float:left; background:url(../images/previous3.gif) no-repeat; text-indent:-9999px}
+.next2{ float:left; position:absolute; top:330px; right:-115px}
+.next2 a{ width:44px; height:78px; float:left; background:url(../images/next3.gif) no-repeat; text-indent:-9999px}
+
+/*
+----------------------------------------
+08. 01 leftpanel
+----------------------------------------
+
+
+#leftpanel { width:30.3%; float:left}    */
+
+#leftpanel .heading{ width:100%; float:left; padding-bottom:30px}
+#leftpanel .heading h3{ font-family:"helveticaneuelt_std_thin_cnRg", Arial, Helvetica, sans-serif; font-size:23px; color:#292929; padding-bottom:8px}
+#leftpanel .heading h3 a { color:#292929}
+#leftpanel .heading h2{ color:#292929; font-family:"helveticaneuelt_std_cnregular", Arial, Helvetica, sans-serif}
+#leftpanel .heading h2 span{ font-size:31px; font-family:"helveticaneuelt_std_cnbold", Arial, Helvetica, sans-serif}
+
+#leftpanel .box{ width:100%; float:left; background:#f2f2f2; margin-bottom:13px}
+#leftpanel .box aside{ width:88%; float:left; padding:13px 7% 12px 5%}
+#leftpanel .box label{ width:22%; float:left; font-size:12px; color:#5b889d; font-weight:bold; padding:8px 0 0 4%}
+#leftpanel .box .input { width:68.8%; height:17px; float:left; background:#e9e9e9; border:1px solid #8a8b8b; border-radius:6px; behavior: url(PIE.htc); position:relative; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#5b889d; padding:6px 2%}
+
+.accordation { width:100%; float:left; background:#f2f2f2}
+.leftmenu { width:84.5%; float:left; padding:0 11.5% 0 4%}
+
+.leftmenu .expand_all, .collapse_all { width:100%; float:left; cursor:pointer}
+.leftmenu .example_menu {width:100%; float:left; position:relative}
+.leftmenu .example_menu ul { display: none}
+
+.leftmenu ul { width:100%; float:left}
+.leftmenu ul li { width:100%; float:left; font-size:12px; color:#5b889d; font-weight:bold; line-height:1em; border-top:1px solid #d7d7d8; padding:12px 0 8px 0}
+.leftmenu ul li.nodivider { border-top:none}
+.leftmenu ul li span{ width:100%; float:left; font-size:9px; color:#6b6a70; padding:10px 0 0 0}
+.leftmenu ul li a { width:237px; float:left; color:#5b889d; text-decoration:none; padding:0 0 0 13px}
+.leftmenu ul li a:hover { text-decoration:none}
+.leftmenu ul li a span { color:#6b6a70; font-weight:normal}
+.leftmenu ul li a.expanded { cursor:pointer; background:url(../images/arrow02.gif) no-repeat 0 2px}
+.leftmenu ul li a.collapsed { cursor:pointer; background:url(../images/arrow01.gif) no-repeat 0 2px}
+
+.leftmenu ul li ul { width:100%; font-weight:normal}
+.leftmenu ul li article { width:100%; font-weight:normal}
+.leftmenu ul li article aside{ width:94%; float:left; float:left; padding:22px 0 0 6%}
+.leftmenu ul li article aside .options { width:100%; float:left; padding-bottom:5px}
+.leftmenu ul li article .options .radio{ width:14px; height:15px; padding:0 4px 0 0; background:url(../images/radio01.gif) no-repeat; display:block; clear:left; float:left}
+.leftmenu ul li article .options .option { float:left; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#6e6d69; font-weight:normal}
+.leftmenu ul li article .options .option a { color:#6e6d69}
+
+.leftmenu ul li article aside .check { width:115px; float:left; padding:15px 0 16px 0}
+.leftmenu ul li article aside .options2{ width:100%; float:left; padding-bottom:6px}
+.leftmenu ul li article .options2 .checkbox{ width:12px; height:13px; padding:0 5px 0 0; background:url(../images/checkbox01.gif) no-repeat; display:block; clear:left; float:left}
+
+.leftmenu ul li article .options2 .option { float:left; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#6e6d69; font-weight:normal}
+.leftmenu ul li article .options2 .option a { color:#6e6d69}
+
+.leftmenu .set{ width:97.5%; float:left; padding:11px 0 11px 2.5%}
+.leftmenu .set.divider{ border-top:1px solid #d7d7d8; padding-bottom:40px}
+.leftmenu .set h5{ padding:0 0 13px 4%}
+.leftmenu .set p{ font-size:9px; color:#6b6a70; padding-bottom:4px}
+.leftmenu .set p span{ width:auto; float: none; color:#5b889d; font-weight:bold; padding:0}
+.leftmenu .set .price { float:left; line-height:.5em}
+
+.leftmenu .set .left { width:120px; float:left}
+.leftmenu .set .right { width:120px; float: right}
+.leftmenu .set label { width:36px; float:left; font-size:9px; color:#6b6a70; padding-top:2px}
+.leftmenu .set .select2 { width:74px; height:17px; float:left; background:#FFFFFF; border:1px solid #cecece; font-size:9px; color:#000000; padding:1px 0 0 0; margin:0}
+
+.leftmenu ul li article .info { width:100%; float:left}
+.leftmenu ul li article .info p{ width:100%; float:left; font-size:9px; color:#000000; padding-bottom:18px}
+.leftmenu ul li article .info p a{ color:#5b889d; text-decoration:underline; font-weight:bold}
+.leftmenu ul li article .info p a:hover { text-decoration:none}
+.leftmenu ul li article .button { width:100%; float:left; font-family:"helveticaneuelt_std_cnbold", Arial, Helvetica, sans-serif; font-size:17px; color:#FFFFFF; padding-bottom:6px}
+.leftmenu ul li article .button a { width:158px; height:21px; float:left; background:#5b889d; border:1px solid #818a8f; box-shadow:#818a8f 0 0 1px; border-radius:4px; behavior: url(PIE.htc); position:relative; color:#FFFFFF; text-decoration:none; text-align:center; text-shadow:#1a2429 0 0 3px; padding-top:8px}
+
+.leftmenu ul li article .info { width:100%; float:left}
+.leftmenu .info p{ width:100%; float:left; font-size:9px; color:#000000; padding-bottom:18px}
+.leftmenu .info p a{ color:#5b889d; text-decoration:underline; font-weight:bold}
+.leftmenu .info p a:hover { text-decoration:none}
+.leftmenu .button { width:100%; float:left; font-family:"helveticaneuelt_std_cnbold", Arial, Helvetica, sans-serif; font-size:17px; color:#FFFFFF; padding-bottom:6px}
+.leftmenu .button a { width:158px; height:21px; float:left; background:#5b889d; border:1px solid #818a8f; box-shadow:#818a8f 0 0 1px; border-radius:4px; behavior: url(PIE.htc); position:relative; color:#FFFFFF; text-decoration:none; text-align:center; text-shadow:#1a2429 0 0 3px; padding-top:8px}
+
+
+.nextmobile { width:91%; float:left; padding:23px 4% 0 5%}
+.nextmobile figure { width:55%; text-align:right; float:right; line-height:.5em}
+.nextmobile .info { width:45%; float:left}
+.nextmobile .info h2{ font-size:33px; color:#292929; line-height:.85em; padding-right:12%}
+.nextmobile .info h2 span{ font-family:"helveticaneuelt_std_cnregular", Arial, Helvetica, sans-serif; font-size:25px; line-height:.8em}
+.nextmobile .buttonconnect { float:left; margin:-23px -7% 0 0; position:relative}
+
+/*
+----------------------------------------
+08. 02 rightpanel
+----------------------------------------
+*/
+
+#rightpanel { width:67.8%; float:right}
+
+.subnav{ width:101.5%; min-height:30px; background:#f6f6f6 url(../images/gradient02.gif) repeat-x bottom left; border:1px solid #d6d6d5; border-radius:5px; behavior: url(PIE.htc); position:relative; margin-left:-1.5%}
+.subnav ul{ min-height:28px; float:left; font-size:10px; color:#6b6a70; list-style-type: none;}
+.subnav ul li { font-size:10px; min-height:28px; float:left; background:url(../images/arrow03.gif) no-repeat top left; line-height:1em; padding:0 0 0 11px}
+.subnav ul li.home { background:none; padding-left:0}
+.subnav ul li.home a { width:32px; min-height:12px; float:left; background: url(../images/icon_home.png) no-repeat 12px 8px; text-indent:-9999px; padding:8px 6px 7px 12px}
+.subnav ul li a{ min-height:19px; float:left; color:#6b6a70; text-decoration: none; padding:9px 12px 0 12px}
+
+.button_salvar { float:right; font-family:"helveticaneuelt_std_cnbold", Arial, Helvetica, sans-serif; font-size:13px; color:#FFFFFF}
+.button_salvar a{ height:28px; float:left; background:#989898; border-radius:0 4px 4px 0; behavior:url(PIE.htc); position: relative; color:#FFFFFF; text-decoration:none}
+.button_salvar a span { float:left; background:url(../images/icon_star01.gif) no-repeat 11px 7px; color:#FFFFFF; text-shadow:#535353 0 0 3px; padding:7px 20px 0 31px}
+
+
+.topinfo { margin-top: -30px;}
+.topinfo p { float:left; font-size:10px; color:#6b6a70; padding-right:20px; margin: 0 0 10px}
+.topinfo p a {color:#6b6a70}
+.topinfo p span{ color:#5b889d; padding:0 1px}
+.topinfo p span a{ color:#5b889d; border-radius:5px; behavior: url(PIE.htc); position:relative; padding:3px 6px 4px 6px}
+.topinfo p span a:hover { background:#5b889d; border-radius:5px; color:#FFFFFF; text-decoration:none}
+.topinfo p span a.active {background:#5b889d; border-radius:5px; color:#FFFFFF; text-decoration:none}
+
+
+.pagination { text-align: right; font-size:10px; color:#6b6a70; padding-right:20px; width:500px;  padding-right:0px;}
+.pagination a {color:#6b6a70}
+.pagination span a:hover { background:#5b889d; border-radius:5px; color:#FFFFFF; text-decoration:none}
+.pagination strong {background:#5b889d; border-radius:5px; color:#FFFFFF; text-decoration:none; padding: 5px; font-weight: normal}
+
+.topinfo p.right { float:right; font-family:"helveticaneuelt_std_cnregular", Arial, Helvetica, sans-serif; font-size:10xp; color:#5b889d; padding:0}
+.topinfo p.right a { color:#5b889d; border-radius:5px; behavior: url(PIE.htc); position:relative; padding:5px 8px; margin:0 -2px}
+/*
+.topinfo p.right a:hover { background:#5b889d; border-radius:5px; color:#FFFFFF; text-decoration:none}
+*/
+.topinfo p.right a.active { background:#5b889d; border-radius:5px; color:#FFFFFF; text-decoration:none}
+
+.bloglist { }
+.bloglist h3{ font-family:"helveticaneuelt_std_cnregular", Arial, Helvetica, sans-serif; color:#5b889d; padding-bottom:6px; margin:0 }
+.bloglist article { width:100%; float:left; background:#f2f2f2; border-right:27px solid #d5dee2; margin-bottom:11px; overflow:hidden}
+.bloglist article:hover { border-right:27px solid #5b889d}
+.bloglist article.active { border-right:27px solid #5b889d}
+.bloglist article {padding:15px 2.2% 15px 2.4%}
+.bloglist article p{ font-size:12px; color:#6b6a70; margin: 0;}
+.bloglist article p a { color:#6b6a70}
+.bloglist article figure { width:29.5%; float:left; line-height:.5em}
+.bloglist article .info{ width:36%; float:left; padding:4px 0 0 3.3%}
+.bloglist article .info h3{ font-family:"helveticaneuelt_std_cnregular", Arial, Helvetica, sans-serif; color:#5b889d; padding-bottom:6px; margin:0 }
+.bloglist article .info h3 a{ color:#5b889d}
+.bloglist article .info p span { font-weight:bold}
+.bloglist article .priceinfo{ width:190px; float:right}
+.bloglist article .priceinfo h3{ font-family:"helveticaneuelt_std_cnbold", Arial, Helvetica, sans-serif; font-size:23px; color:#5b889d; text-align:right; padding-bottom:4px}
+
+.bloglist article .priceinfo p{ text-align:right; padding-bottom:18px}
+.bloglist article .priceinfo .buttons{ float: right; border:1px solid #b6b6b6; border-radius:5px; behavior: url(PIE.htc); position:relative}
+.bloglist article .priceinfo .buttons a { float:left; font-family:"helveticaneuelt_std_cnbold", Arial, Helvetica, sans-serif; font-size:11px; color:#FFFFFF}
+.bloglist article .priceinfo  .buttons a { height:22px; float:left; background:#e3a53a url(../images/gradient03.gif) repeat-x top left; border-top:1px solid #b29455; border-left:1px solid #b3914b; border-right:1px solid #9c772e; border-radius:4px 0 0 4px; behavior: url(PIE.htc); position:relative; color:#FFFFFF}
+.bloglist article .priceinfo .buttons a span { float:left; background: url(../images/icon_star02.gif) no-repeat 7px 3px; color:#FFFFFF; text-shadow:#222 0 0 3px; padding:4px 15px 0 24px}
+.bloglist article .priceinfo .myButton a:hover { text-decoration:none}
+
+.bloglist article .priceinfo .buttons a.plus { background:#a6a6a6; border:none; border-bottom:1px solid #9e9e9e; border-top:1px solid #909090; border-radius:0 4px 4px 0}
+.bloglist article .priceinfo .buttons a.plus span { background:url(../images/icon_plus.gif) no-repeat 11px 4px; text-shadow:#222 0 0 3px; padding:4px 15px 0 27px}
+
+
+/*
+----------------------------------------
+09. inner page02
+----------------------------------------
+*/
+
+#bannerinner { width:100%;  float:left; text-align:center; position:relative}
+#bannerinner .slider { width:100%; float:left; position:relative}
+#bannerinner figure{ width:100%; float:left; line-height:.5em; text-align:center}
+#bannerinner figure img{ height:100%;}
+
+#bgheading { width:100%; min-height:41px; float:left; background:#e0ad45; padding:7px 0 0 0}
+#bgheading h3{ float:left; font-family:"helveticaneuelt_std_cnbold", Arial, Helvetica, sans-serif; font-size:20px; color:#232629; padding-top:7px}
+#bgheading h3 span{ font-family:"helveticaneuelt_std_lt_cnRg", Arial, Helvetica, sans-serif; padding-left:12px}
+#bgheading h3 a { color:#232629}
+
+#bgheading .photolist{ width:146px; float:left; padding:8px 0 0 40px}
+#bgheading .photolist p{ float:left; font-size:18px; color:#232629; font-family:"helveticaneuelt_std_cnbold",Arial, Helvetica, sans-serif; padding:0 10px}
+#bgheading .photolist .previousarrow{ float:left; padding-top:1px}
+#bgheading .photolist .nextarrow{ float:left; padding-top:1px}
+
+#bgheading .buttons { float:right; border:1px solid #a88234; border-radius:7px; behavior: url(PIE.htc); position:relative; font-family:"helveticaneuelt_std_cnbold", Arial, Helvetica, sans-serif; font-size:16px; color:#FFFFFF}
+#bgheading .button { float:left}
+#bgheading .button a { height:32px; float:left; background: url(../images/gradient04.gif) repeat-x top left; border-right:1px solid #8a5b1f; border-radius:6px 0 0 6px; behavior: url(PIE.htc); position:relative}
+#bgheading .button a span { float:left; background:url(../images/icon_star03.gif) no-repeat 17px 7px; color:#FFFFFF; text-shadow:#33210a 0 0 3px; padding:7px 16px 0 40px}
+#bgheading .button a:hover { text-decoration:none}
+#bgheading .button a.messages { background:url(../images/gradient05.gif) repeat-x top left; border:none; border-radius:0 6px 6px 0}
+#bgheading .button a.messages span { float:left; background:url(../images/icon_message.gif) no-repeat 16px 7px; text-shadow:#2f2210 0 0 3px; padding:7px 23px 0 48px}
+
+
+.leftinfo { width:66%; float:left}
+.leftinfo .links { width:100%; float:left; padding-bottom:8px}
+.leftinfo .links p{ float:left; font-family:"myriad_probold_italic", Arial, Helvetica, sans-serif; font-size:29px; color:#FFFFFF; padding:0 4.3% 0 0}
+.leftinfo .links p span{ font-size:18px}
+.leftinfo .links p img { line-height:.5em; margin-top:-5px; position:relative; padding-left:4px}
+.leftinfo .links p.icon img { margin-top:-10px}
+
+.leftinfo .details{ width:48.7%; float:left}
+.leftinfo .details h4{ width:100%; height:46px; float:left; background:#262523; border-radius:5px; behavior: url(PIE.htc); position:relative; font-family:"helveticaneuelt_std_cnbold", Arial, Helvetica, sans-serif; font-size:15px; color:#e0ad45}
+.leftinfo .details h4 span{ width:95%; float:left; padding:15px 0 0 5%}
+.leftinfo .details aside { width:90%; float:left; padding:25px 10% 0 0}
+.leftinfo .details p { font-size:13px; color:#FFFFFF; line-height:1.3em; padding-bottom:13px}
+.leftinfo .details .buttonconnect{ float:left; padding:8px 0 0 0}
+
+.leftinfo .details.right{ width:48.7%; float: right}
+.leftinfo .details ul { width:99%; float:left; font-family:"helveticaneuelt_std_cnbold", Arial, Helvetica, sans-serif; padding:13px 0 0 1%}
+.leftinfo .details ul li{ width:100%; float:left; font-size:12px; color:#e0ad45; line-height:1em; padding:8px 0 11px 0}
+.leftinfo .details ul li a { color:#e0ad45}
+.leftinfo .details ul li.gray { background:#333333; color:#e6bd6a}
+.leftinfo .details ul li .tipo{ width:133px; float:left; padding-left:21px}
+.leftinfo .details ul li .casa{ width:160px; float:left}
+
+.rightinfo { width:32%; float:right}
+.rightinfo .links{ width:97.5%; min-height:31px; float:left; background:#43423f; border-radius:7px; behavior: url(PIE.htc); position:relative; margin-left:2.5%}
+.rightinfo .links p{ float:left; font-family:"helveticaneuelt_std_cnbold", Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF; padding:6px 0 0 10px}
+.rightinfo .links p a{ color:#FFFFFF; text-decoration:underline}
+.rightinfo .links p a:hover{ text-decoration:none}
+.rightinfo .links p.right { float:right; padding:6px 0 0 0}
+.rightinfo .links p.right a { text-decoration:none}
+.rightinfo .links p.right a:hover { text-decoration: underline}
+.rightinfo .links p span { float:left; margin:0 9px}
+.rightinfo .links .prev{ float:left}
+.rightinfo .links .prev a { float:left; background:url(../images/arrow_prev.gif) no-repeat 0 4px; text-decoration:none; padding:0 0 0 15px}
+.rightinfo .links .next{ float:left}
+.rightinfo .links .next a{ float:left; background:url(../images/arrow_next.gif) no-repeat right 4px; text-decoration:none; padding:0 16px 0 0}
+
+.rightinfo .form { width:100%; float:left; padding:30px 0 0 0}
+.rightinfo form { width:100%; float:left; background:#2e2e2e; border-radius:6px; behavior: url(PIE.htc); position:relative}
+.rightinfo form fieldset { width:86.5%; float:left; padding:17px 8% 36px 5.5%}
+.rightinfo form h4 { float:left; font-family:"helveticaneuelt_std_cnbold", Arial, Helvetica, sans-serif; font-size:15px; color:#FFFFFF}
+.rightinfo form h4 a{ color:#FFFFFF}
+.rightinfo form h2{ float:right; font-size:24px; color:#FFFFFF; text-align:right; padding-bottom:24px; margin-top:-3px; position:relative}
+.rightinfo form h2 a{ color:#FFFFFF}
+.rightinfo form ul { width:98.5%; float:left; padding:0 0 10px 1.5%}
+.rightinfo form ul li{ width:100%; float:left; line-height:1em; padding-bottom:10px}
+.rightinfo form .input{ width:96%; height:18px; float:left; background:#FFFFFF; border:1px solid #8a8b8b; border-radius:6px; behavior: url(PIE.htc); position:relative; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#282826; font-weight:bold; padding:4px 2%}
+
+.rightinfo form .textarea{ width:96%; height:60px; float:left; background:#FFFFFF; border:1px solid #8a8b8b; border-radius:6px; behavior: url(PIE.htc); position:relative; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#282826; font-weight:bold; padding:5px 2% 0 2%}
+
+.rightinfo form .buttons { float:left; padding:0 0 13px 20%}
+.rightinfo form .button { width:175px; height:31px; float:left; background:#7c4600; border:1px solid #5d3705; box-shadow: #000 0 0 1px; border-radius:6px; behavior: url(PIE.htc); position:relative; font-family:"helveticaneuelt_std_cnbold", Arial, Helvetica, sans-serif; font-size:16px; color:#FFFFFF; text-decoration:none; text-align:center; text-shadow:#190e00 0 0 3px; cursor:pointer}
+.rightinfo form p { width:100%; float:left; font-family:"MyriadProBold", Arial, Helvetica, sans-serif; font-size:11px; color:#FFFFFF; text-align:center}
+
+.bottominfo { width:100%; float:left; padding:60px 0 0 0}
+.bottominfo h3{ width:100%; float:left; color:#e0ad45; font-size:23px; padding-bottom:10px}
+.bottominfo p { font-size:13px; color:#FFFFFF; line-height:1.3em; padding-bottom:15px}
+.bottominfo p span{ font-style:italic}
+.bottominfo .buttonconnect{ float:left; padding:15px 0 0 0}
+
+.bottominfo .article{ width:55%; float:left; padding-top:5px}
+.bottominfo .aside{ width:300px; float:right}
+.bottominfo .aside .buttonconnect{ float:left; padding-left:7px; margin-top:-55px}
+
+
+
+/* -----------------------------------------
+   header
+----------------------------------------- */
+
+
+
+
+.listaImoveis article {
+width: 96%;
+float: left;
+background: #F2F2F2;
+border-right: 27px solid #D5DEE2;
+margin-bottom: 11px;
+}
+
+.banner{
+  height: 560px;
+}
+
+
+
+
+
+
+
+
+
+
