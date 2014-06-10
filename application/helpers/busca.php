@@ -197,7 +197,7 @@ class busca_Core {
 					if(end(array_keys($filtros))=="pret")
 						$on = false;
 					else						
-						$where = self::generate_where($filtros);					
+						$where = self::generate_where($filtros,$custom_search);					
 				}
 			}	
 

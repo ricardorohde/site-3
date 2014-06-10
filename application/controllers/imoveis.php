@@ -300,7 +300,7 @@ class Imoveis_Controller extends Template_Controller{
 		$pret = $this->input->post('pret_busca');
 		$q_search = false;
 
-		$pag_imoveis = preg_match("/venda|alugar/",$_SERVER['HTTP_REFERER']);
+		$pag_imoveis = preg_match("/venda.html|alugar.html/",$_SERVER['HTTP_REFERER']);
 		
     	$url_final = "";
     	if($pag_imoveis == 1) //se veio da página de busca
