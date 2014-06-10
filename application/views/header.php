@@ -46,7 +46,7 @@
 			echo form::open('imoveis/busca' , array("id"=>"busca_topo"));
 			echo form::hidden( "pret_busca" , "venda" ,array("id"=>"pret"));
 			echo form::hidden( "pret" , (isset($pret))?($pret):("venda") ,array("id"=>"pret"));
-			echo form::input('cod_jb', $search , 'class="texto" placeholder = "Código"') ;
+			echo form::input('cod_jb', $search , 'class="texto" placeholder = "Palavras Chave"') ;
 			echo ''.form::button(array('id'=>'buscar', 'type'=>'submit', 'class' => 'buttonsearch'), 'buscar').'';
 			echo form::close();
 		?>
