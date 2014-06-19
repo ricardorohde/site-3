@@ -510,9 +510,10 @@ class busca_Core {
     	{
     		$palavras = implode("','",explode("_",$custom_search));
     		$palavras_regexp = implode("|",explode("_",$custom_search));
+    		$palavras_fullsearch = implode(" ",explode("_",$custom_search));
 
 
-    		$where .= " AND tipo in('".$palavras."') OR finalidade in('".$palavras."') OR im.cidade REGEXP '".$palavras_regexp."' OR im.bairro REGEXP '".$palavras_regexp."' ";    
+    		$where .= " AND tipo in('".$palavras."') OR finalidade in('".$palavras."') OR im.cidade REGEXP '".$palavras_regexp."' OR im.bairro REGEXP '".$palavras_regexp."' OR MATCH(im.descricao) AGAINST ('".$palavras_fullsearch."')";    
     		//$where .= " AND im.cidade LIKE '%".$custom_search."%' ";    
     	}
 

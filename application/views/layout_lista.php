@@ -14,7 +14,7 @@
 
              <div class="box">
     <aside>
-        <label>Código</label>
+        <label>Busque</label>
         <?php
 			echo $pesquisa_cod;		
 		?>
