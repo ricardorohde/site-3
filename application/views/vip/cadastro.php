@@ -70,14 +70,15 @@ todo o trabalho de pesquisa para você.</p>
 	echo '<p><span>Email</span>'.form::input('email',"","autocomplete='off'")."<label id='label_email'>Digite um email válido.</label></p>";		
 	echo '<p><span>Senha:</span>'.form::password('password',"","autocomplete='off'")."</p>";	
 	echo "<small>Se quiser que a NEXT gere uma senha para você, deixe este campo em branco que a enviaremos por email.</small>";
-	echo '<p><span>Seu nome:</span>'.form::input('nome',"","autocomplete='off'")."<label id='label_nome'>Digite seu nome.</label></p>";
+	if($mostrar_corretor)
+		echo '<p><span>Nome do usuário:</span>'.form::input('nome',"","autocomplete='off'")."<label id='label_nome'>Digite seu nome.</label></p>";
+	else
+		echo '<p><span>Seu nome:</span>'.form::input('nome',"","autocomplete='off'")."<label id='label_nome'>Digite seu nome.</label></p>";
 	echo '<p><span>Telefone</span>'.form::input('fone',"","autocomplete='off'")."<label id='label_tel'>Digite seu telefone.</label></p>";
 	if($mostrar_corretor)	
-		echo '<p><span>Corretor</span>'.form::input('corretor',"","autocomplete='off'")."<label id='label_corr'>Digite seu código.</label></p>";	
+		echo '<br><br><p><span>Corretor</span>'.form::dropdown('corretor',$corretores)."</p>";	
 	echo form::button("button",'<span>Cadastro VIP</span>').'';	
 	echo "</fieldset>";
 	echo form::close();
-
-
 
 ?>

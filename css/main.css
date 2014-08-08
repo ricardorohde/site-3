@@ -1,56 +1,4 @@
-/*
-----------------------------------------
-01. default elements
-----------------------------------------
-*/
-
-* {
-	margin: 0;
-	padding: 0;
-}
-html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline
-}
-ul, li, ol {
-	list-style:none
-}
-/* render html5 elements as block */
-article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {
-	display: block;
-}
-
-html {
-	font-size: 100%;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
-}
-
-sub, sup {
-	position: relative;
-	font-size: 75%;
-	line-height: 0;
-	vertical-align: baseline;
-}
-
-sup { top: -0.5em; }
-
-sub { bottom: -0.25em; }
-
-img {
-  vertical-align: middle;
-  border: 0;
-  -ms-interpolation-mode: bicubic;
-}
-
-h1, h2, h3, h4, h5, h6 {
-	font-weight:normal; line-height:1em
-}
-
+* {margin: 0; padding: 0; } html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline } ul, li, ol {list-style:none } /* render html5 elements as block */ article, aside, details, figcaption, figure, footer, header, hgroup, nav, section {display: block; } html {font-size: 100%; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; } sub, sup {position: relative; font-size: 75%; line-height: 0; vertical-align: baseline; } sup { top: -0.5em; } sub { bottom: -0.25em; } img {vertical-align: middle; border: 0; -ms-interpolation-mode: bicubic; } h1, h2, h3, h4, h5, h6 {font-weight:normal; line-height:1em }
 
 body { font-family:Verdana, Arial, Helvetica, sans-serif; background:#0e0e0e}
 html, body { overflow-x:hiddenbackground: none repeat scroll 0 0 #e1e1e1; }
@@ -123,20 +71,8 @@ nav #menu li a img{ margin:-3px -5px 0 10px}
 .rightlinks ul li a:hover{ text-decoration:none; color:#FFFFFF; background:url(../images/trans03.png) repeat}
 .rightlinks ul li a.active{ text-decoration:none; color:#FFFFFF; background:url(../images/trans03.png) repeat}
 	form#busca_topo{ width: auto;}
-	#busca_topo .texto {  border: medium none;
-    border-radius: 5px;
-    color: #333333;
-    height: 20px;
-    margin: 0 -21px 0 22px;
-    padding: 0 20px 0 5px;
-    width: 90px;}
-	#busca_topo #buscar{ background: url("../images/busca_topo.jpg") no-repeat scroll right center #FFFFFF;
-    border: medium none;
-    cursor: pointer;
-    height: 20px;
-    overflow: hidden;
-    text-indent: -2000px;
-    width: 21px;}
+	#busca_topo .texto {  border: medium none; border-radius: 5px; color: #333333; height: 20px; margin: 0 -21px 0 22px; padding: 0 20px 0 5px; width: 90px;}
+	#busca_topo #buscar{ background: url("../images/busca_topo.jpg") no-repeat scroll right center #FFFFFF; border: medium none; cursor: pointer; height: 20px; overflow: hidden; text-indent: -2000px; width: 21px;}
 .pp_social{display:none}
 
 /*
@@ -162,22 +98,13 @@ section#acoes  div a{color:#9f7217}
 ----------------------------------------
 */
 
-#banner {float: left;
-    height: 573px;
-    position: relative;
-    text-align: center;
-    width: 100%;overflow:hidden}
+#banner {float: left; height: 573px; position: relative; text-align: center; width: 100%;overflow:hidden}
 #next #banner img{ height:1639px}
 #next footer{margin-top: 1054px;}
 #quem_somos #banner img{ height:1012px}
 #quem_somos #banner {overflow:visible}
 
-#banner_home_lancamento {float: left;
-    height: 455px;
-    position: relative;
-    text-align: center;
-    width: 100%;overflow:hidden}
-
+#banner_home_lancamento {float: left; height: 455px; position: relative; text-align: center; width: 100%;overflow:hidden}
 #banner_home_lancamento  .info{ display: block; height: 200px; left: 50%; margin: 0 auto; position: absolute; text-align: right; top: 180px;}
 #banner_home_lancamento  .item {position: relative; width: 100%;}
 #banner_home_lancamento  .item h2{display: block; font-family: helveticaneuelt_std_cnregular;  font-size: 48px; margin-bottom: 10px;}
@@ -235,36 +162,18 @@ section#acoes  div a{color:#9f7217}
 #finalidade{}
 .selectlist5{left: 213px; margin-left: 18px; overflow: hidden;position: absolute; top: 39px; width: 202px;margin-left: 12px;}
 
-
 .bannerform .form1 .selectlist1{  display: block; float: left; overflow: hidden; width: 207px;}
 .bannerform .form1 .faixa_valor_max{ margin-left: -7px; }
-
 .bannerform .form1 .selectlist2{ width:79px; float:left; margin-left:6px;overflow: hidden;}
 .bannerform .form1 .selectlist3{ margin-right:-10px}
 .bannerform .form1 .selectlist2 .select{  background:url(../images/select02.png) no-repeat; width:96px; margin:0}
 .bannerform .form1 .selectlist2 .sbSelector{ width:79px}
 .bannerform .form1 .selectlist2 .sbOptions{ width:75px}
 .bannerform .form1 .selectlist2 .sbOptions li{ width:75px}
-
 .bannerform .form1 .ate{ float:left; padding:10px 3px}
-
 .bannerform .form1 .selectlist4{ left: 0; overflow: hidden; position: absolute; top: 39px; width: 205px;}
 .bannerform .form1 .selectlist4 p{ color:#e5c8a2; font-style:italic; padding:40px 0 0 14px}
-
-.bannerform .form1 .buttonsearch{ background: url("../images/icon_search.png") no-repeat scroll 11px 6px #FB930B;
-    border: medium none;
-    border-radius: 5px 5px 5px 5px;
-    bottom: 2px;
-    color: #FFFFFF;
-    cursor: pointer;
-    font-family: "helveticaneuelt_std_cnbold",Arial,Helvetica,sans-serif;
-    font-size: 16px;
-    height: 32px;
-    padding: 0 12px 0 0;
-    position: absolute;
-    right: 3px;
-    text-align: right;
-    width: 94px;}
+.bannerform .form1 .buttonsearch{ background: url("../images/icon_search.png") no-repeat scroll 11px 6px #FB930B; border: medium none; border-radius: 5px 5px 5px 5px; bottom: 2px; color: #FFFFFF; cursor: pointer; font-family: "helveticaneuelt_std_cnbold",Arial,Helvetica,sans-serif; font-size: 16px; height: 32px; padding: 0 12px 0 0; position: absolute; right: 3px; text-align: right; width: 94px;}
 
 .bannerform .form1 .time { float:left; background:url(../images/icon_time.gif) no-repeat 0 1px; padding:0 0 0 19px}
 .bannerform .form1 .right { float:right}
@@ -302,25 +211,19 @@ body#busca .box2 #comprar,body#busca .box2 #alugar{  background: none repeat scr
     border-radius: 5px 5px 5px 5px;color: #292929; display: block; font-family: helveticaneuelt_std_cnbold; font-size: 20px; padding: 10px 0; text-align: center; width: 60%;margin: 0 auto}
 body#busca .box2 #comprar:hover,body#busca .box2 #alugar:hover {background: none repeat scroll 0 0 #BF7616;text-decoration:none;color:#f7f7f7}
 body#busca .box2 #alugar{margin-top:5px}
-
-
 /*----------------------------------------
 05. middle text
 ----------------------------------------
 */
 #middletext {   background: none repeat scroll 0 0 #525252 ; float: left;  padding: 35px 0; width: 100%;text-align: center;}
 #middletext p {  color: #ffffff; display: inline; font-family: "helveticaneuelt_std_cnbold",Arial,Helvetica,sans-serif;font-size: 24px;}
-#middletext .button{  background: none repeat scroll 0 0 #d2a446;
-    border-radius: 4px;  color: #FFFFFF; font-family: "helveticaneuelt_std_cnbold",Arial,Helvetica,sans-serif;  font-size: 17px;
-    height: 26px;  line-height: 26px; margin-left: 20px; padding: 10px 15px;}
+#middletext .button{  background: none repeat scroll 0 0 #d2a446; border-radius: 4px;  color: #FFFFFF; font-family: "helveticaneuelt_std_cnbold",Arial,Helvetica,sans-serif;  font-size: 17px; height: 26px;  line-height: 26px; margin-left: 20px; padding: 10px 15px;}
 #middletext .button:hover{text-decoration:none;background:#c29436}
 
 /*----------------------------------------
 05. middle content
 ----------------------------------------
 */
-
-
 #conheca_exclusividade { width:100%; float:left; background:#eda20b; padding:45px 0 32px}
 #conheca_exclusividade article{float: right; height: 123px; overflow: hidden;  width: 280px; margin-top: -15px;}
 #conheca_exclusividade p{color:#ffffff; font-family: helveticaneuelt_std_cnbold; font-size: 36px;  width: 640px;}
@@ -511,18 +414,9 @@ footer .copyrights p.tersm a{ color:#FFFFFF; padding:0 10px}
 #leftpanel .box label{ width:20%; float:left; font-size:12px; color:#5b889d; font-weight:bold; padding:4.5px 0 0 1%}
 #leftpanel .box .input { width:68.8%; height:17px; float:left; background:#e9e9e9; border:1px solid #8a8b8b; border-radius:6px; behavior: url(PIE.htc); position:relative; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#5b889d; padding:6px 2%}
 #leftpanel #cod_jb{margin-right: 6px; padding: 2px 8px;} 
-#cod_jb{border: 1px solid #999999;
-    border-radius: 5px 5px 5px 5px;
-    margin-right: -1px;
-    padding:9px 8px;}
+#cod_jb{border: 1px solid #999999; border-radius: 5px 5px 5px 5px; margin-right: -1px; padding:9px 8px;}
 
-#cidade_dropdown{
-  background: none repeat scroll 0 0 #E9E9E9;
-    border: 1px solid #999999;
-    border-radius: 5px 5px 5px 5px;
-    margin-top: 12px;
-    padding: 4px;
-    width: 100%;}
+#cidade_dropdown{background: none repeat scroll 0 0 #E9E9E9; border: 1px solid #999999; border-radius: 5px 5px 5px 5px; margin-top: 12px; padding: 4px; width: 100%;}
 	
 .tit_drop {color: #6B6A70; display: block;float: left; font-size: 9px;font-weight: bold; padding-top: 5px; text-align: center; width: 45px;}
 .div_drop { display: block; float: left; width: 126px; margin-top: 10px;}
@@ -531,7 +425,6 @@ footer .copyrights p.tersm a{ color:#FFFFFF; padding:0 10px}
 .div_areas{display: block;}
 .div_areas .title { margin-bottom: 7px;}
 .div_areas .tit_drop{ display: inline; float: none;  margin: 0 4px;}
-
 
 .accordation { width:100%; float:left; background:#f2f2f2}
 .leftmenu { width:84.5%; float:left; padding:0 11.5% 0 4%}
@@ -724,16 +617,7 @@ li#item_bairro{border-top:none}
 .foto_slider #cboxTopLeft {display:none}
 .foto_slider #cboxTopCenter {display:none}
 .foto_slider #cboxTopRight {display:none}
-.foto_slider #cboxClose {
-    background: url("../images/close.png") no-repeat scroll 0 0 transparent;
-    border: medium none;
-    bottom: 5px;
-    height: 32px;
-    position: absolute;
-    right: 10px;
-    text-indent: -9999px;
-    width: 26px;
-}
+.foto_slider #cboxClose {background: url("../images/close.png") no-repeat scroll 0 0 transparent; border: medium none; bottom: 5px; height: 32px; position: absolute; right: 10px; text-indent: -9999px; width: 26px; }
 
 #bgheading { width:100%; min-height:41px; background:#e0ad45; padding:7px 0 0 0;z-index:9000}
 #bgheading h3{ float:left; font-family:"helveticaneuelt_std_cnbold", Arial, Helvetica, sans-serif; font-size:20px; color:#232629; padding-top:7px}
@@ -842,23 +726,12 @@ body#quem_somos {background:#000000}
 
 #container_quem_somos p {color: #FFFFFF; font-size: 14px;width: 100%;font-weight: normal;}
 
-#quem_somos h3.title{background: none repeat scroll 0 0 #1B2225;
-    border-radius: 8px 8px 8px 8px;margin-bottom: 15px;
-    color: #E1E1E1;
-    display: block;
-    font-family: helveticaneuelt_std_lt_cnRg;
-    font-size: 25px;
-    padding: 7px 14px;
-    width: 235px;}
+#quem_somos h3.title{background: none repeat scroll 0 0 #1B2225; border-radius: 8px 8px 8px 8px;margin-bottom: 15px; color: #E1E1E1; display: block; font-family: helveticaneuelt_std_lt_cnRg; font-size: 25px; padding: 7px 14px; width: 235px;}
 #part_1 {}
 
 #lista{float: left;width: 263px;}
 #lista ul{}
-#lista li{  background: none repeat scroll 0 0 #131516;
-    border-radius: 6px 6px 6px 6px;
-    color: #E1E1E1;
-    font-size: 12px;
-    padding: 8px;}
+#lista li{  background: none repeat scroll 0 0 #131516; border-radius: 6px 6px 6px 6px; color: #E1E1E1; font-size: 12px; padding: 8px;}
 #lista li+li{ margin-top: 5px;}
 
 #conteudo{overflow: hidden; padding-left: 50px;width:710px}
@@ -868,14 +741,7 @@ body#quem_somos {background:#000000}
 #areas_itens{ overflow: hidden; padding-left: 20px;float: left;}
 #areas_itens div{  display: block; float: left;overflow: hidden; width: 168px;}
 #areas_itens div+div{margin-left: 25px;}
-#areas_itens strong{background: none repeat scroll 0 0 #1B1A1A;
-    border-radius: 6px 6px 6px 6px;
-    color: #E1E1E1;
-    display: block;
-    font-family: helveticaneuelt_std_cnbold;
-    font-size: 26px;
-    padding: 16px 10px;
-    text-align: center;}
+#areas_itens strong{background: none repeat scroll 0 0 #1B1A1A; border-radius: 6px 6px 6px 6px; color: #E1E1E1; display: block; font-family: helveticaneuelt_std_cnbold; font-size: 26px; padding: 16px 10px; text-align: center;}
 #areas_itens aside p{text-align: center !important; width: 100% !important;}
 
 #executivos{ float: left; margin-top: 50px;  width: 100%;display: none;}
@@ -906,10 +772,7 @@ body#exclusividade {background:#0e0e0e}
 #exclusividade  #primeiro{  background: none repeat scroll 0 0 #212121; height: 340px; padding: 40px 0 70px;}
 #exclusividade  #segundo{  background: none repeat scroll 0 0 #e1e1e1;  height: 150px; padding: 30px 0;}
 #exclusividade  #terceiro{  background: none repeat scroll 0 0 #212121;height: 260px; padding: 40px 0 0;}
-#slider_quemsomos{ float: left;
-    height: 331px;
-    margin-right: 60px;
-    width: 449px;}
+#slider_quemsomos{ float: left; height: 331px; margin-right: 60px; width: 449px;}
 #slider_quemsomos > div.rsOverflow{}
 #slider_quemsomos > div.rsOverflow .rsSlide {}
 
@@ -917,14 +780,7 @@ body#exclusividade {background:#0e0e0e}
 
 #exclusividade .bgbannerform p {color: #FFFFFF; font-size: 12px;width: 100%;font-weight: normal;line-height: 18px;}
 
-#exclusividade h3.title{background: none repeat scroll 0 0 #1B2225;
-    border-radius: 8px 8px 8px 8px;margin-bottom: 15px;
-    color: #E1E1E1;
-    display: block;
-    font-family: helveticaneuelt_std_lt_cnRg;
-    font-size: 25px;
-    padding: 7px 14px;
-    width: 235px;}
+#exclusividade h3.title{background: none repeat scroll 0 0 #1B2225; border-radius: 8px 8px 8px 8px;margin-bottom: 15px; color: #E1E1E1; display: block; font-family: helveticaneuelt_std_lt_cnRg; font-size: 25px; padding: 7px 14px; width: 235px;}
 
 #exclusividade #lista{width: 500px;margin-top: 45px;}
 #exclusividade #conteudo{ float: right; width: 400px;padding:0}
@@ -995,34 +851,14 @@ div.pp_pic_holder > .pp_content{width: 100% !important;}
 
 .pp_content,.pp_details{width:100% !important}
 
-.filtro_ativo span a {
-background: url(../images/removeItem2.gif) no-repeat left bottom;
-display: block;
-background-position: 0 0;
-text-indent: 5px;
-overflow: hidden;
-}
-.filtro_ativo span a:hover{
-  background-position: 0 -14px;
-}
+.filtro_ativo span a {background: url(../images/removeItem2.gif) no-repeat left bottom; display: block; background-position: 0 0; text-indent: 5px; overflow: hidden; }
+.filtro_ativo span a:hover{background-position: 0 -14px; }
 
-
-
-element.style {
+/*element.style {
 width: 194px;
-}
+}*/
 
-form.custom div.custom.dropdown {
-display: block;
-position: relative;
-width: auto;
-height: 35px;
-margin-bottom: 9px;
-margin-top: 2px;
-float: left;
-margin-right: 5px;
-font-size: 12px;
-}
+form.custom div.custom.dropdown {display: block; position: relative; width: auto; height: 35px; margin-bottom: 9px; margin-top: 2px; float: left; margin-right: 5px; font-size: 12px; }
 
 /*==============================*/
 /*=========VIP=========*/
@@ -1048,6 +884,7 @@ body#vip_cadastro  fieldset p{display: block; text-align: center; }
 body#vip_cadastro  fieldset p span{font-weight: bold; margin-bottom: 4px; display: block; text-align: left; font-size: 12px; color: #282826; }
 body#vip_cadastro  fieldset p+p{margin-top: 10px;}
 body#vip_cadastro  fieldset p input{border-radius: 7px; padding: 7px 6px; width: 240px; border: 1px solid #8a8b8b; }
+body#vip_cadastro  fieldset p select{border-radius: 7px; padding: 7px 6px; width: 255px; border: 1px solid #8a8b8b; }
 body#vip_cadastro  fieldset button{font-size: 25px; padding: 7px 20px; margin: 15px auto 0; display: block; width: 180px; color: #f7f7f7; font-family: helveticaneuelt_std_cnbold; background: #e0ad45; border-radius: 10px; border: 1px solid #959082; cursor: pointer; }
 body#vip_cadastro  fieldset button:hover{ background: none repeat scroll 0 0 #D09D35;}
 body#vip_cadastro  fieldset button span{text-shadow: 0px 0px 3px #222222; }
@@ -1085,17 +922,10 @@ body#vip section.right h3{font-family: helveticaneuelt_std_lt_cnRg; font-size: 2
 
 #profile {margin-left: 20px; float: left; margin: 7px 0 0 20px; position: relative; }
 #profile img{margin-right: 10px; }
-#profile button{  background: url("../images/profile_arrow.png") no-repeat scroll center center transparent;
-    border: medium none;
-    cursor: pointer;
-    overflow: hidden;
-    padding: 10px;
-    text-indent: -2000px;
-    vertical-align: middle;}
+#profile button{  background: url("../images/profile_arrow.png") no-repeat scroll center center transparent; border: medium none; cursor: pointer; overflow: hidden; padding: 10px; text-indent: -2000px; vertical-align: middle;}
 #profile > span{font-size: 13px; color: #222; text-align: left; padding-right: 6px;}
 #profile > span:hover ul{display:block !important}
-#menu_popup {background: none repeat scroll 0 0 #FDFDFD;
-    display: none; margin-left: 40px; margin-top: -8px; padding:8px 10px; position: absolute; text-align: left; text-indent: 0; width: 200px; }
+#menu_popup {background: none repeat scroll 0 0 #FDFDFD; display: none; margin-left: 40px; margin-top: -8px; padding:8px 10px; position: absolute; text-align: left; text-indent: 0; width: 200px; }
 #menu_popup span{border: 0 none;height: 30px; margin: -39px 0 0 20px; padding: 0; position: absolute; width: 140px;}
 #menu_popup li{ }
 #menu_popup li+li{margin-top:4px}
@@ -1196,40 +1026,16 @@ div.accordion{ height:370px }
 #slider-valor{ background: none repeat scroll 0 0 #DDDDDD; border: 1px solid #CCCCCC; display: block; height: 8px; margin: 15px 0; width: 252px;}
 #price_show {color: #6B6A70; display: block; font-size: 9px; font-weight: bold; margin-top: 10px; text-align: center;}
 #price_show span{color: #5B889D;}
-.noUiSlider {
-	width:					400px;
-	border:					1px solid #CCC;
-	height:					8px;
-	background:				#EEE;
-	-webkit-touch-callout:	none;
-}
-.noUi-midBar {
-	height:					100%;
-	z-index:				0;
-	background:				#39C;
-	-webkit-touch-callout:	none;
-}
-.noUi-handle > div {
-	position:				absolute;
-	width:					16px;
-	height:					16px;
-	top:					-5px;
-	left:					-8px;
-	z-index: 				5;
-	border:					1px solid #CCC;
-	background:				#EEE;
+.noUiSlider {width:					400px; border:					1px solid #CCC; height:					8px; background:				#EEE; -webkit-touch-callout:	none; }
+.noUi-midBar {height:					100%; z-index:				0; background:				#39C; -webkit-touch-callout:	none; }
+.noUi-handle > div {position:	absolute; width:16px; height:16px; top:-5px; left:-8px; z-index: 5; border:		1px solid #CCC; background:	#EEE;
 }
 .noUi-handle > div:hover,
-.noUi-handle > div.noUi-activeHandle {
-	background:				#ACE;
-	border-color:			#369;
-}
+.noUi-handle > div.noUi-activeHandle {background:#ACE; border-color:			#369; }
 .disabled > .noUi-midBar {
 	background:				#999;
 }
-.disabled .noUi-handle > div {
-	border-color:			#CCC;
-	background:				#CCC;
+.disabled .noUi-handle > div {border-color:			#CCC; background:				#CCC;
 }
 @media (-webkit-min-device-pixel-ratio:1.2),-moz-touch-enabled,(max-device-width:1024px){
 	.noUi-handle > div {
@@ -1240,33 +1046,14 @@ div.accordion{ height:370px }
 	}
 }
 
-#loading {   background: none repeat scroll 0 0 #FFFFFF;
-    display: none;
-    height: 500px;
-    opacity: 0.7;
-    position: fixed;
-    width: 100%;
-    z-index: 9999;}
+#loading {   background: none repeat scroll 0 0 #FFFFFF; display: none; height: 500px; opacity: 0.7; position: fixed; width: 100%; z-index: 9999;}
 #loading.show {display:block}
-#loader {  background: url("../images/loader.gif") no-repeat scroll 0 0 transparent;
-    display: block;
-    height: 64px;
-    margin: 340px auto 0;
-    width: 64px;}
+#loader {  background: url("../images/loader.gif") no-repeat scroll 0 0 transparent; display: block; height: 64px; margin: 340px auto 0; width: 64px;}
 
-.radio_pret span{color: #888888;
-    display: block;
-    font-size: 12px;
-    padding-top: 6px;text-decoration: none;}
+.radio_pret span{color: #888888; display: block; font-size: 12px; padding-top: 6px;text-decoration: none;}
 	
 .radio_pret:hover{text-decoration: none;background: none repeat scroll 0 0 #e1e1e1;}
-.radio_pret{ background: none repeat scroll 0 0 #F1F1F1;
-    border: 1px outset #E7E7E7;
-    display: block;
-    height: 30px;
-    margin-top: 15px;
-    text-align: center;
-    width: 125px;text-decoration: none;}
+.radio_pret{ background: none repeat scroll 0 0 #F1F1F1; border: 1px outset #E7E7E7; display: block; height: 30px; margin-top: 15px; text-align: center; width: 125px;text-decoration: none;}
 	
 .radio_pret.ativo{background: none repeat scroll 0 0 #F9F9F9;
     border: 1px inset #E7E7E7;text-decoration: none;}
@@ -1276,8 +1063,6 @@ div.accordion{ height:370px }
     float: right;}
 .radio_pret.ativo span{color: #5B889D;
     font-weight: bold;text-decoration: none;}
-	
-	
 	
 /*
 * ColorBox Core Style:
@@ -1332,17 +1117,7 @@ div.accordion{ height:370px }
   The following fixes a problem where IE7 and IE8 replace a PNG's alpha transparency with a black fill
   when an alpha filter (opacity change) is set on the element or ancestor element.  This style is not applied to IE9.
 */
-.cboxIE #cboxTopLeft,
-.cboxIE #cboxTopCenter,
-.cboxIE #cboxTopRight,
-.cboxIE #cboxBottomLeft,
-.cboxIE #cboxBottomCenter,
-.cboxIE #cboxBottomRight,
-.cboxIE #cboxMiddleLeft,
-.cboxIE #cboxMiddleRight {
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);
-}
-
+.cboxIE #cboxTopLeft, .cboxIE #cboxTopCenter, .cboxIE #cboxTopRight, .cboxIE #cboxBottomLeft, .cboxIE #cboxBottomCenter, .cboxIE #cboxBottomRight, .cboxIE #cboxMiddleLeft, .cboxIE #cboxMiddleRight {filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF); }
 /*
   The following provides PNG transparency support for IE6
 */
@@ -1355,16 +1130,6 @@ div.accordion{ height:370px }
 .cboxIE6 #cboxMiddleLeft{background:url(images/ie6/borderMiddleLeft.png);}
 .cboxIE6 #cboxMiddleRight{background:url(images/ie6/borderMiddleRight.png);}
 
-.cboxIE6 #cboxTopLeft,
-.cboxIE6 #cboxTopCenter,
-.cboxIE6 #cboxTopRight,
-.cboxIE6 #cboxBottomLeft,
-.cboxIE6 #cboxBottomCenter,
-.cboxIE6 #cboxBottomRight,
-.cboxIE6 #cboxMiddleLeft,
-.cboxIE6 #cboxMiddleRight {
-    _behavior: expression(this.src = this.src ? this.src : this.currentStyle.backgroundImage.split('"')[1], this.style.background = "none", this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=" + this.src + ", sizingMethod='scale')");
-}
-
+.cboxIE6 #cboxTopLeft, .cboxIE6 #cboxTopCenter, .cboxIE6 #cboxTopRight, .cboxIE6 #cboxBottomLeft, .cboxIE6 #cboxBottomCenter, .cboxIE6 #cboxBottomRight, .cboxIE6 #cboxMiddleLeft, .cboxIE6 #cboxMiddleRight {_behavior: expression(this.src = this.src ? this.src : this.currentStyle.backgroundImage.split('"')[1], this.style.background = "none", this.style.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src=" + this.src + ", sizingMethod='scale')"); }
 span#blog {font-size: 13px; margin-top: 5px;}
 span#blog a{color: #E0AD45;}

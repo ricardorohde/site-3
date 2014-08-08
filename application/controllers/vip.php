@@ -135,7 +135,21 @@ class Vip_Controller extends Imoveis_Controller{
 		$this->template->body_id = "vip_cadastro";			
 		$this->template->title = 'Cadastro - Área Vip';
 		$this->template->layout->content = new View('vip/cadastro');	
+
+		$ch = curl_init();
+		curl_setopt ($ch, CURLOPT_URL, 'http://prmnext.testes.taosistemas.com.br/app_dev.php/api/corretores'); //trocar depois
+		curl_setopt ($ch, CURLOPT_RETURNTRANSFER, 1);
+		curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, 0);		
 		$this->template->layout->content->mostrar_corretor = true;
+
+		$obj = curl_exec($ch);
+		curl_close($ch);
+		
+		$array = array();
+		foreach (json_decode($obj,true) as $item)
+			$array[$item["id"]] = utf8_decode($item["nome"]);			
+
+		$this->template->layout->content->corretores = $array;
 	}
 	
 	public function perfil()
@@ -213,29 +227,11 @@ class Vip_Controller extends Imoveis_Controller{
 		$user->fone = $fone;
 		$user->corretor = $corretor;
 		$user->password = $this->auth->hash_password($password);
-		
+		//print_r($user);exit;
 		// if the user was successfully created...
 		if ($user->add(ORM::factory('role','login')) AND $user->save()) {		//adiciona como role LOGIN e depois salva	
 			$this->auth->login($email, $password); // loga o usuário	 
 
-			// *** PRM ****
-			/*$prm_api = new PrmClient($GLOBALS['prm_api_endpoint'], $GLOBALS['prm_api_key'] );
-
-			// adiciona o cliente ao cadastro
-			$prm_api->criarOuAtualizarCliente(
-			    array(
-			        'referencia' => $user->id,
-			        'nome' => $user->nome,
-			        'email' => $user->email,
-			        'contatos' => array(
-			                array('nome' => $user->nome, 'email' => $user->email, 'telefone1' => $user->fone )
-			            )
-			    )
-			);
-
-			// cria uma oportunidade para este cliente
-			$prm_api->clienteAdicionarProdutoInteresse( array('cliente_referencia' => $user->id ));
-*/
 			// ********** 
 			if($enviar_email)			
 				$this->send_email("senha",$password);//envia email para o usuário	
